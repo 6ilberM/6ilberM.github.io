@@ -1,12 +1,14 @@
 h1
 { 
-font-size: 50px;
+font-size: 30px; 
+font-weight: bold;
+margin-bottom: 0px;
 }
 /* @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"); */
 
 h2
 {
-font-size: 30px;
+font-size: 20px;
 }
 
 .btn-lg
@@ -14,6 +16,15 @@ font-size: 30px;
   background-color: #CA4771
 }
 
+.infoDiv
+{
+  width:380px;
+  color:#4EDA99;
+  padding-right: 20px;
+  position: absolute;
+  left: 10px;
+
+}
 body
 {
   background-color: #42484e;
