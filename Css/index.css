@@ -97,7 +97,8 @@ h3 {
 
 /* Remember to remove this or rename it  */
 .lipsum {
-    color: #4EDA99;
+    /* color: #4EDA99; */
+    color: #212529;
 }
 
 .navbar-brand {
