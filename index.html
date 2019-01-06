@@ -30,6 +30,14 @@
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="Css/index.css" />
     <link rel="icon" href="Media/logo-fav.png">
+
+    <script src="js/holder.js"></script>
+
+    <script>Holder.addTheme("dark", {
+            bg: "#42484e",
+            fg: "#4eda99"
+        });</script>
+
 </head>
 
 <header>
@@ -87,7 +95,9 @@
         <!-- <img src="Media/Somewaves.gif" data-src="Media/Somewaves.gif" class="right rounded-circle" alt="Some Cool waves I made!"> -->
     </div>
 
-    <img src="Media/Somewaves.gif" alt="" class="img-responsive rounded-circle" alt="Some Cool waves I made!">
+    <!-- <img src="holder.js/300x200?theme=dark" data-src="Media/Somewaves.gif" class="img-responsive rounded-circle" alt="Some Cool waves I made!"> -->
+    <img src="Media/Somewaves.gif" data-src="" class="img-responsive rounded-circle" alt="Some Cool waves I made!">
+
     <!-- Spacing -->
     <br><br></br></br>
 
@@ -102,7 +112,7 @@
         </hr>
         <!-- Recent blog Posts! -->
         <div class="card text-left">
-            <img class="card-img-top" src="holder.js/100px180/" alt="">
+            <!-- <img class="card-img-top" src="holder.js/300x200?theme=negro" alt=""> -->
             <div class="card-body">
 
                 <p class="card-text">
@@ -195,8 +205,11 @@
         crossorigin="anonymous"></script>
 </body>
 
-<footer>
-
+<footer class="container-fluid bg-grey py-5">
+    <div class="row">
+        <div class="col-8"> <img src="holder.js/200x100?theme=dark" class="img-responsive"></div>
+        <div class="col-4"> <img src="holder.js/200x100?theme=dark" class="img-responsive"></div>
+    </div>
 </footer>
 
 </html>
