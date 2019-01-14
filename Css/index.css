@@ -4,7 +4,7 @@
 
 html {
     position: relative;
-    /* not entirely sure if the following is necessary */
+        /* not entirely sure if the following is necessary */
 
     min-height: 100%;
 }
