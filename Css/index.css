@@ -4,8 +4,7 @@
 
 html {
     position: relative;
-        /* not entirely sure if the following is necessary */
-
+    /* not entirely sure if the following is necessary */
     min-height: 100%;
 }
 
@@ -20,29 +19,23 @@ h1 {
 }
 
 h2 {
-    font-size: 20px;
-    color: #4EDA99;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-}
-
-h3 {
     margin-top: 10px;
-    font-size: 150%;
+    font-size: 20px;
     text-align: center;
     color: #59dbf8;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
 }
 
-h4 {
+h3 {
     font-size: 25px;
     color: #59dbf8;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
 }
 
-.typewriter h3 {
+.typewriter h2 {
+    display: grid;
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
     /* border-right: .15em solid orange; */
@@ -53,7 +46,7 @@ h4 {
     /* Gives that scrolling effect as the typing happens */
     /* letter-spacing: .15em; */
     /* Adjust as needed */
-    animation: typing 2.5s steps(60, end), step-end infinite;
+    animation: typing 1.5s steps(60, end), step-end infinite;
 }
 
 /* The typing effect */
