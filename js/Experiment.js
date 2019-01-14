@@ -1,1 +1,1 @@
-// Javascript learning2
+// Javascript learning 2
