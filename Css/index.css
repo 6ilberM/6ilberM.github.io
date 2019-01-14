@@ -4,6 +4,8 @@
 
 html {
     position: relative;
+    /* not entirely sure if the following is necessary */
+
     min-height: 100%;
 }
 
@@ -114,17 +116,6 @@ h4 {
 .blogSection {
     background: #ff005159;
     max-width: 100%;
-}
-
-/* Remember to remove this or rename it  */
-
-.lipsum {
-    /* color: #4EDA99; */
-    color: #212529;
-}
-
-.navbar-brand {
-    float: none;
 }
 
 .infoDiv {
