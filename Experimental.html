@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="Css/index.css" />
     <!-- Other Main includes -->
 
-    <link rel="stylesheet" type="text/css" href="../BtStrap/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="BtStrap/css/bootstrap.css" />
 
     <!-- fonts -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
@@ -17,19 +17,97 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 
     <!-- stylesheet -->
-    <link rel="stylesheet" type="text/css" href="../Css/Blog.css" />
-    <link rel="icon" href="../Media/logo-fav.png">
+    <link rel="stylesheet" type="text/css" href="Css/index.css" />
+    <link rel="icon" href="Media/logo-fav.png">
 
-    <script src="js/Experiment.js"></script>
+    <script type="text/javascript" src="js/Tween.js"></script>
+    <script type="text/javascript" src="js/RequestAnimationFrame.js"></script>
+    <script type="text/javascript" src="js/Experiment.js"></script>
 </head>
 
 <body>
-<div class="spacer" style="display: block; height: 550px;background-color: blueviolet">
-    l
-</div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+        <div class="container-fluid">
+            <!-- Home/Title! -->
+            <a class="navbar-brand" href=""><img src="Media/Dreams-shape-the-world.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a href="" class="nav-link"><i class="fa fa-home"></i>
+                            Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="PortFolio.html" class="nav-link"><i class="fa fa-suitcase"></i>
+                            Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Blog/Bl-Index.html" class="nav-link"><i class="fa fa-archive"></i> Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
 
 
-    
+    <div class="" style="margin-top:20px;height: 200px;background-color: cornflowerblue;">
+        <div id="target" style="position: absolute;top: 100px;left: 100px;">water slide</div>
+    </div>
+
+    <script type="text/javascript">
+        var position;
+        var target;
+        var tween, tweenBack;
+
+        init();
+        animate();
+
+        function init() {
+
+            position = { x: 100, y: 100, rotation: 0 };
+            target = document.getElementById('target');
+            tween = new TWEEN.Tween(position)
+                .to({ x: 700, y: 200, rotation: 359 }, 2000)
+                .delay(1000)
+                .easing(TWEEN.Easing.Elastic.InOut)
+                .onUpdate(update);
+
+            tweenBack = new TWEEN.Tween(position)
+                .to({ x: 100, y: 100, rotation: 0 }, 3000)
+                .easing(TWEEN.Easing.Elastic.InOut)
+                .onUpdate(update);
+
+            tween.chain(tweenBack);
+            tweenBack.chain(tween);
+
+            tween.start();
+
+        }
+
+        //If we register the callback animate, but the TWEEN.update(time) returns false, 
+        //cancel/unregister the handler
+        function animate(time) {
+            var id = requestAnimationFrame(animate);
+
+            var result = TWEEN.update(time);
+
+            if (!result) cancelAnimationFrame(id);
+        }
+
+        function update() {
+            target.style.left = position.x + 'px';
+            target.style.top = position.y + 'px';
+            target.style.webkitTransform = 'rotate(' + Math.floor(position.rotation) + 'deg)';
+            target.style.MozTransform = 'rotate(' + Math.floor(position.rotation) + 'deg)';
+        }
+
+    </script>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
@@ -37,5 +115,46 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 </body>
+<footer>
+    <div class="container-fluid">
+        <div class="row footer-over">
+            <div class="col-md-8 col-10 social-icon" align="center">
+                <ul>
+                    <li><a class="btn-floating btn-li btn-lg" href="https://twitter.com/6ilberm"><i class="fab fa-lg fa-twitter"
+                                style="color: #4EDA99;position: relative;"></i></a></li>
+                    <li><a class="btn-floating btn-li btn-lg " href="https://github.com/6ilberM"><i class="fab fa-lg fa-github"
+                                style="color: #4EDA99;"></i></a></li>
+                    <li><a class="btn-floating btn-li btn-lg" href="https://www.linkedin.com/in/gilber-moreno/"><i
+                                class="fab fa-lg  fa-linkedin-in" style="color: #4EDA99;"></i> </a></li>
+                    <li><a class="btn-floating btn-li btn-lg" href="https://bitbucket.org/6ilberM/">
+                            <i class="fab fa-bitbucket" style="color: #4EDA99;"></i>
+                        </a></li>
+
+                </ul>
+            </div>
+            <!-- on hover make my name appear  -->
+            <div class="col-md-4 footer-About" align="center" id="About">
+
+                <div class="made-By">
+                    <h2 style="color: #4EDA99">Made By</h2>
+                    <p>Gilberto Moreno</p>
+                </div>
+                <div class="made-With" id="MadeWith">
+                    <h3>Made With</h3>
+                    <div>
+                        <p>
+                            Html,CSS,js,
+                        </p>
+                        <p>
+                            Bootstrap4,jQuery
+                        </p>
+                        <p> Hosted By Github <i class="fab fa-1x fa-github"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 </html>
