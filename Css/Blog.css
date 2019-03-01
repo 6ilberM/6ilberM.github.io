@@ -12,6 +12,12 @@ p {
 h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
+    color: #aaaaaa;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 
 .navbar {
@@ -70,12 +76,14 @@ article {
     box-sizing: border-box;
     padding: 1em;
     margin: 1em auto;
-    max-width: 780px;
+    max-width: 95%;
     font-size: 17px;
 }
 
 article p {
-    color: #4EDA99;
+    /* color: #4EDA99; */
+    /* Secondary Color */
+    color: #aaaaaa
 }
 
 footer {
