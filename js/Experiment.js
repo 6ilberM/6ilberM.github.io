@@ -1,1 +1,1 @@
-// Javascript learning 2
+//For tests!
