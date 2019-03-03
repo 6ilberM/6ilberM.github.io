@@ -39,3 +39,14 @@ $(function () {
 
     });
   });
+
+  //How to move slowly towards something!
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (s) {
+        s.preventDefault();``
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});

@@ -87,7 +87,11 @@ article p {
 }
 
 .meta-title {
-    text-align: center
+    text-align: center;
+}
+
+.meta-date {
+    text-align: right;
 }
 
 footer {
