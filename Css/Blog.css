@@ -12,7 +12,7 @@ p {
 h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    color: #aaaaaa;
+    color: #ffffff;
 }
 
 h2 {
@@ -72,19 +72,25 @@ body {
     margin-bottom: 327px;
 }
 
+.Contenido {
+    background-color: initial;
+}
+
+
+
 article {
-    background-color: #1b1b1b59;
+    background-color: #1b1b1b;
     box-sizing: border-box;
     padding: 1em;
     margin: 1em auto;
-    max-width: 95%;
+    /* max-width: 95%; */
     font-size: 17px;
 }
 
 article p {
     /* color: #4EDA99; */
     /* Secondary Color */
-    color: #aaaaaa
+    color: whitesmoke;
 }
 
 .meta-title {
