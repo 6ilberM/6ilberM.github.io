@@ -12,13 +12,13 @@ p {
 h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    color: #ffffff;
+    color: #CA4771;
 }
 
 h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    color: whitesmoke;
+    color: #CA4771;
 }
 
 .navbar {
@@ -95,7 +95,7 @@ article {
 article p {
     /* color: #4EDA99; */
     /* Secondary Color */
-    color: whitesmoke;
+    color: #4EDA99;
 }
 
 .meta-title {
