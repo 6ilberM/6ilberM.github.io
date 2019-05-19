@@ -78,12 +78,13 @@ body {
     margin: 0 auto;
 }
 
-.Contenido {
-    background-color: initial;
+.Content-Entry {
+    background: #CA4771;
+    background-color: #000000;
 }
 
 article {
-    background-color: #1b1b1b;
+    background-color: #1b1b1b7a;
     box-sizing: border-box;
     padding: 1em;
     margin: 1em auto;
