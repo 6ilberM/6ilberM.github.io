@@ -84,7 +84,7 @@ body {
 }
 
 article {
-    background-color: #1b1b1b7a;
+    background-color: #1b1b1bb7;
     box-sizing: border-box;
     padding: 1em;
     margin: 1em auto;
@@ -96,6 +96,13 @@ article p {
     /* color: #4EDA99; */
     /* Secondary Color */
     color: #4EDA99;
+
+    display: block;
+    text-align: justify;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .meta-title {
