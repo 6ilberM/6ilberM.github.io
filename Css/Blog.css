@@ -153,3 +153,49 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.ListHolder {
+    display: block;
+}
+
+.ListHolder ol li {
+    font-weight: 600;
+    color: #4EDA99;
+    /* margin-top: 8px; */
+    font-size: 25px;
+    background-color: transparent;
+}
+
+.Ro-Map {
+    list-style: decimal url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
+    ;
+}
+
+.Ro-Map li:nth-child(1n):before {
+    position: relative;
+    /* margin-left: -2em; */
+}
+
+.Ro-Map li:nth-child(1):before {
+    content: "\01F40D";
+}
+
+.Ro-Map li:nth-child(2):before {
+    content: "\2681";
+}
+
+.Ro-Map li:nth-child(3):before {
+    content: "\2682";
+}
+
+.Ro-Map li:nth-child(4):before {
+    content: "\2683";
+}
+
+.Ro-Map li:nth-child(5):before {
+    content: "\2684";
+}
+
+.Ro-Map li:nth-child(6):before {
+    content: "\2685";
+}
