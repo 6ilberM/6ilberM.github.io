@@ -163,18 +163,17 @@ img {
     font-weight: 600;
     color: #4EDA99;
     /* margin-top: 8px; */
-    font-size: 25px;
+    font-size: 1.2em auto;
     background-color: transparent;
 }
 
 .Ro-Map {
     list-style: decimal url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
-    ;
 }
 
 .Ro-Map li:nth-child(1n):before {
     position: relative;
-    /* margin-left: -2em; */
+    margin-left: -3em;
 }
 
 .Ro-Map li:nth-child(1):before {
@@ -182,11 +181,11 @@ img {
 }
 
 .Ro-Map li:nth-child(2):before {
-    content: "\2681";
+    content: "\01F436";
 }
 
 .Ro-Map li:nth-child(3):before {
-    content: "\2682";
+    content: "\01F43E";
 }
 
 .Ro-Map li:nth-child(4):before {
