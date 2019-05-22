@@ -189,7 +189,7 @@ img {
 }
 
 .Ro-Map li:nth-child(4):before {
-    content: "\2683";
+    content: "\01F579";
 }
 
 .Ro-Map li:nth-child(5):before {
@@ -197,5 +197,17 @@ img {
 }
 
 .Ro-Map li:nth-child(6):before {
+    content: "\2685";
+}
+
+.Ro-Map li:nth-child(7):before {
+    content: "\2685";
+}
+
+.Ro-Map li:nth-child(8):before {
+    content: "\2685";
+}
+
+.Ro-Map li:nth-child(9):before {
     content: "\2685";
 }
