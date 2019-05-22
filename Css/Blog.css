@@ -163,7 +163,7 @@ img {
     font-weight: 600;
     color: #4EDA99;
     margin-top: 8px;
-    font-size: 5.5vmin;
+    font-size: 2vmax;
     /* font-size: 1.8vmax; */
     background-color: transparent;
 }
