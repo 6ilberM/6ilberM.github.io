@@ -21,6 +21,13 @@ h2 {
     color: #CA4771;
 }
 
+h3 {
+    color: #59dbf8;
+    font-size: 1.65em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
 .navbar {
     background: #1b1b1bc5;
     top: 0;
