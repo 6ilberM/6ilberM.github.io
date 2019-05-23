@@ -163,57 +163,22 @@ img {
 }
 
 .ListHolder {
+    padding-top: 15px;
+    padding-bottom: 15px;
     display: block;
 }
 
-.ListHolder ol li {
-    font-weight: 600;
+.ListHolder ul li {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    border: none;
     color: #4EDA99;
-    margin-top: 8px;
-    font-size: 4vmin 2vmax auto;
+    margin-left: -25px;
+    font-size: auto;
+    /* margin-top: 12px; */
+    /* font-size: 4vmin 2vmax auto; */
     /* font-size: 1.8vmax; */
     background-color: transparent;
-}
-
-.Ro-Map {
-    list-style: decimal url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
-    /* margin-left: -3.2rem; */
-}
-
-.Ro-Map li:nth-child(1n):before {
-    /* position: relative; */
-    margin-top: 20px;
-    /* margin-left: -3em; */
-}
-
-.Ro-Map li:nth-child(1):before {
-    content: "\01F40D";
-}
-
-.Ro-Map li:nth-child(2):before {
-    content: "\01F436";
-}
-
-.Ro-Map li:nth-child(3):before {
-    content: "\01F43E";
-}
-
-.Ro-Map li:nth-child(4):before {
-    content: "\01F579";
-}
-
-.Ro-Map li:nth-child(5):before {
-    content: "\01F3AE";
-}
-
-.Ro-Map li:nth-child(6):before {
-    content: "\02699";
-}
-
-.Ro-Map li:nth-child(7):before {
-    content: "\01F410";
-}
-
-.Ro-Map li:nth-child(8):before {
-    content: "\01F4DC";
+    list-style: none;
 }
