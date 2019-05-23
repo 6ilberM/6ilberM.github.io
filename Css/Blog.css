@@ -171,11 +171,12 @@ img {
 .ListHolder ul li {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+
     font-weight: 400;
     border: none;
     color: #4EDA99;
     margin-left: -25px;
-    font-size: auto;
+    font-size: 1.2rem;
     /* margin-top: 12px; */
     /* font-size: 4vmin 2vmax auto; */
     /* font-size: 1.8vmax; */
