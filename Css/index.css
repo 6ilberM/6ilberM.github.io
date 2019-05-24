@@ -55,6 +55,7 @@ h3 {
     from {
         width: 0
     }
+
     to {
         width: 100%
     }
@@ -118,6 +119,8 @@ h3 {
 
 .infoDiv {
     color: #4EDA99;
+    background-color: #1b1b1b42;
+    border-radius: 10px;
 }
 
 body {
@@ -167,15 +170,3 @@ img {
     max-width: 100%;
     height: auto;
 }
-
-/* @media screen and (min-width: 2241px) {
-    .navbar-brand img {
-        width: 760px;
-    }
-}
-
-@media screen and (max-width: 1440px) {
-    .navbar-brand img {
-        width: 300px;
-    }
-} */
