@@ -24,7 +24,7 @@ PluralSight Courses: **89** Counter: **0/89**
 | ------------- | --------- |
 | OpenGL        |           |
 | Unity         |           |
-| Unity/Shaders | 3         |
+| Unity/Shaders | 4         |
 | Pico-8/lua    |           |
 | Monogame      | null      |
 | Jams          | null      |
@@ -33,6 +33,11 @@ PluralSight Courses: **89** Counter: **0/89**
 
 1. Shader Dev as many hours as I can put in there. *at least 2 hours a day! No limit*.
    1. Book 3 hours per day until done.
+2. PICO-8 -TeamWorkCast
+
+### Pause
+
+1. PluralSight
 
 2. Python. Missing *18hrs*. 6.0 days @ 3 hours. Counter:0/6.
 
@@ -49,7 +54,7 @@ PluralSight Courses: **89** Counter: **0/89**
 
 5. JavaScript
 
-## ToDo
+## To DO
 
 1. Complete a data Logging app that will create a node.js rendered menu so that I can easily Log the ammount of work I have done.
 
