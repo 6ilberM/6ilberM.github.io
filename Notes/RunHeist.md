@@ -25,7 +25,7 @@
 - [x] Improved Camera Panning
 - [ ] Tool to make it easier to setup Nodes in our A*
 - [ ] REMOVE THE VISIBLE COMPONENT OF THE A* Graph from Gameplay in screen
-- [ ] Improve Load times for the game if it is possible. 
+- [ ] Improve Load times for the game if it is possible.
 
 ### Art
 
@@ -40,9 +40,9 @@
 - [x] So tool para settear los items dentro del RackTestSCript.
 - [ ] UI Upgrades.
   - [ ] Prettier Loading Bar.
-  - [ ] UpgradeSaving.
+  - [ ] Upgrade Saving.
 - [ ] UI Game Over LevelComplete Correct UI
-- [ ] UI Tap To Start Wheno opening the game,Remove UI Panel to be able to see the game when its loaded!
+- [x] UI Tap To Start Whenoopening the game,Remove UI Panel to be able to see the game when its loaded!
 - [ ] Working Levels
 - [ ] Ai's con el character model and animating.
 - [ ] TextCurrency Particles or something else.
