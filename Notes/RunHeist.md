@@ -27,6 +27,15 @@
 - [ ] REMOVE THE VISIBLE COMPONENT OF THE A* Graph from Gameplay in screen
 - [ ] Improve Load times for the game if it is possible.
 
+#### Iteracion 2
+
+- [ ] UI Upgrades.
+  - [ ] Prettier Loading Bar.
+  - [ ] Upgrade Saving.
+- [ ] UI Game Over LevelComplete Correct UI
+- [ ] Efectos de sonido al Recoger cosas.
+- [ ] Efecto del sonido no annoying al movernos.
+
 ### Art
 
 - [ ] Parte Visual POLISH FUERTE.
@@ -37,15 +46,21 @@
 
 ### Current Tasks
 
-- [x] So tool para settear los items dentro del RackTestSCript.
-- [ ] UI Upgrades.
-  - [ ] Prettier Loading Bar.
-  - [ ] Upgrade Saving.
-- [ ] UI Game Over LevelComplete Correct UI
-- [x] UI Tap To Start Whenoopening the game,Remove UI Panel to be able to see the game when its loaded!
-- [ ] Working Levels
-- [ ] Ai's con el character model and animating.
+- [ ] Anaqueles se caen y cosas caen de el.
+- [ ] AI tumben las cosas
+- [ ] si se te acaba el tiempo next level o restart pero sin load a new scene.
+- [ ] Nivel a lo random que no sea el current one.
+
+- [x] Ai's con el character model and animating.
 - [ ] TextCurrency Particles or something else.
+- [ ] Time Out. Cuando se acaba el tiempo. Texto Con letra Bangers. blanco con outline.
+- [ ] 5 4 3 2 1.  TEXTO appearing. Sound effect DING DING DING DING
+- [ ] Particulas .😊😊😊
+
+- [x] So tool para settear los items dentro del RackTestSCript.
+- [x] UI Tap To Start Whenoopening the game,Remove UI Panel to be able to see the game when its loaded!
+- [x] Working Levels
+  - [ ] APPLY AI TO levels.
 
 ## Notes
 
