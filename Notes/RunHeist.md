@@ -46,8 +46,8 @@
 
 ### Current Tasks
 
-- [ ] Anaqueles se caen y cosas caen de el.
-- [ ] AI tumben las cosas
+- [x] Anaqueles se caen y cosas caen de el.
+- [x] AI tumben las cosas
 - [ ] si se te acaba el tiempo next level o restart pero sin load a new scene.
 - [ ] Nivel a lo random que no sea el current one.
 
