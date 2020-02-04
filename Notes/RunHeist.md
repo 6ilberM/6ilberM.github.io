@@ -46,21 +46,34 @@
 
 ### Current Tasks
 
+#### YO DUDE A NEW TASK LOG HAS APPEARED IN YOUR TASK LOGYAYAYAYAYAYAYAYA
+
+- [ ] game winning and losing
+- [ ] scoring coins. and giving the player a chance to increase your  watchin an add score.
+- [ ] Level loads a diferent level after its done. 
+- [ ] Storing Coins, previous /Current level & which one is the future level
+- [ ] Allow for purchases to increase the pickup rates
+- [ ] watch tutorial on cinemachine blending to improve the way it transitions
+
 - [x] Anaqueles se caen y cosas caen de el.
 - [x] AI tumben las cosas
-- [ ] si se te acaba el tiempo next level o restart pero sin load a new scene.
-- [ ] Nivel a lo random que no sea el current one.
+- [x] si se te acaba el tiempo next level o restart pero sin load a new scene.
 
 - [x] Ai's con el character model and animating.
-- [ ] TextCurrency Particles or something else.
-- [ ] Time Out. Cuando se acaba el tiempo. Texto Con letra Bangers. blanco con outline.
-- [ ] 5 4 3 2 1.  TEXTO appearing. Sound effect DING DING DING DING
-- [ ] Particulas .😊😊😊
-
 - [x] So tool para settear los items dentro del RackTestSCript.
 - [x] UI Tap To Start Whenoopening the game,Remove UI Panel to be able to see the game when its loaded!
 - [x] Working Levels
-  - [ ] APPLY AI TO levels.
+
+- [ ] Nivel a lo random que no sea el current one.
+- [ ] FIX position for objects when finished bezier path
+- [ ] Complete Game Loop
+- [ ] Make UI Quickly
+- [ ] 4 3 2 1  when time is ending.
+- [ ] Particles behind the player when he is moving
+- [ ] mini Trail when things are moving towards the object
+- [ ] Separate the entire thing so that it only moves so many at a time so that it doesn't take too long to get to the place
+- [ ] register the ammount of money you make and display it on scene
+- [ ] el timer tiene un bug.
 
 ## Notes
 

@@ -54,6 +54,8 @@ PluralSight Courses: **89** Counter: **0/89**
 
 5. JavaScript
 
+6. HasKell
+
 ## To DO
 
 1. Complete a data Logging app that will create a node.js rendered menu so that I can easily Log the ammount of work I have done.
