@@ -4,8 +4,8 @@
 
 ### Priority-List Wednesday 5 Feb
 
-  1. Particles behind the player when he is moving.
-  2. Delay when game is over and  the game should not replace the camera right away
+  1. Delay when game is over and  the game should not replace the camera right away
+  2. something
   3. Better Way to display the time when its ending.
      1. 5 4 3 2 1  when time is ending. use Countdown LowTifier
   4. UI
@@ -21,6 +21,7 @@
 - [ ] Consider Remaking the movement so that it works on Astar so that it allows for having multiple People driving carts.
 - [ ] Separate the entire thing so that it only moves so many items at a time so that it doesn't take too long to get to the place. for cashier controller in particular
 
+- [x] Particles behind the player when he is moving.
 - [x] Complete Game Loop technically.
 - [x] Carrito que se acumulen en el mismo lugar mas accurately Collider positioning
 - [x] FIX position for objects when finished bezier path
