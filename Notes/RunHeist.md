@@ -4,19 +4,21 @@
 
 ### Priority-List Wednesday 5 Feb
 
+
   1. Particles behind the player when he is moving.
-  2. Delay when game is over and  the game should not replace the camera right away
-  3. Better Way to display the time when its ending.
+  2. Sonido
+  3. Delay when game is over and  the game should not replace the camera right away
+  4. Better Way to display the time when its ending.
      1. 5 4 3 2 1  when time is ending. use Countdown LowTifier
-  4. UI
+  5. UI
      1. UI Look.
         1. Main Menu
         2. Game Over.
         3. Multiplier for the ammount of coins you get.
      2. UI functionality
         1. Game over Needs to display the time when its over appropiately
-  5. Capacity Upgrades Implementation.
-  6. Mini Trail when things are moving towards the cashier or player.
+  6. Capacity Upgrades Implementation.
+  7. Mini Trail when things are moving towards the cashier or player.
 
 - [ ] Consider Remaking the movement so that it works on Astar so that it allows for having multiple People driving carts.
 - [ ] Separate the entire thing so that it only moves so many items at a time so that it doesn't take too long to get to the place. for cashier controller in particular
