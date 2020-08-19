@@ -12,6 +12,8 @@ Theoretical **Avaialable Hours per Weekend Day 11.5 hrs**.
 **Allocatable Time until PluralSight ends 2565 hours**.
 PluralSight Courses: **89** Counter: **0/89**
 
+I started working making this Null & Void ... Must build a new one of theses.... And follow IT !!!! but be more realistic
+
 ## Estimates
 
 | Estimate At Rate |
