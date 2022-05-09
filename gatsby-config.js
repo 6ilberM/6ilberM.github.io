@@ -29,5 +29,5 @@ module.exports = {
       __key: 'markdown'
     }
   ],
-  pathPrefix: '/6ilberM.github.io'
+  // pathPrefix: '/6ilberM.github.io'
 }
