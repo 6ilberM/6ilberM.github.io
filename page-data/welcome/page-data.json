@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/welcome/",
+    "result": {"data":{"markdownRemark":{"html":"<p>this is quite the entretaining thing to do</p>\n<h2>Water</h2>\n<p>is definetly something important</p>","frontmatter":{"title":"Welcome to my Gatsby blog!","keywords":"developer","category":["Devlog"]}}},"pageContext":{"slug":"/welcome/"}},
+    "staticQueryHashes": []}
