@@ -1,0 +1,29 @@
+// @import './global.scss';
+
+.header {
+  font-size: xx-large;
+  color: #ad3131;
+}
+
+h1 {
+  color: whitesmoke;
+}
+
+.errorMsg {
+  font-size: large;
+  color: green;
+}
+
+article {
+  p {
+    color: white !important;
+  }
+  strong {
+    color: white !important;
+  }
+}
+
+.mainContent {
+  background-color: #20202081;
+  max-width: 70%;
+}
