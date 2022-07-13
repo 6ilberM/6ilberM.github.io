@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunk_6ilber_m_s_blog=self.webpackChunk_6ilber_m_s_blog||[]).push([[25],{4037:function(e,l,n){n.r(l);var t=n(7294),o=n(4670),r=n(3639);l.default=function(){return t.createElement("main",null,t.createElement(o.Z,null),t.createElement("h1",null,"Hello :D welcome to my portfolio"),t.createElement(r.Z,null,t.createElement("p",null,"Coming Soon!")))}}}]);
-//# sourceMappingURL=component---src-pages-portfolio-js-5b77e127e4bd4c866a9c.js.map
