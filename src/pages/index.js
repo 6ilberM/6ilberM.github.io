@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Container } from 'react-bootstrap'
-import * as styles from '../scss/index.module.scss'
+import '../scss/index.module.scss'
 import PortraitCard from '../components/portraitCard'
 import NavigationBar from '../components/NavigationBar'
 import _myPortraitImage from '../images/portrait.jpg'

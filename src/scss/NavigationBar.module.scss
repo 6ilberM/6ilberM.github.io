@@ -1,5 +1,19 @@
+@import 'global.scss';
+
 .nlx {
-  color: white;
   text-decoration: none;
   padding: 8px;
 }
+
+// div>a {
+//   color: $text-color-1 !important;
+// }
+
+.nav-link{
+  font-family: 'Roboto', sans-serif;
+  color: #2699FB !important;
+}
+
+// #basic-navbar-nav > div > a.nav-link.active{
+//     color: $text-color-1 !important;
+// }

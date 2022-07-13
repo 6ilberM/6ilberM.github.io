@@ -1,31 +1,22 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import * as styles from '../scss/NavigationBar.module.scss'
+import '../scss/NavigationBar.module.scss'
 import { Navbar, Nav, Container } from 'react-bootstrap'
 
 const NavigationBar = () => {
   return (
-    <Navbar bg='dark' expand='sm'>
+    <Navbar bg='dark' variant='dark'>
       <Container>
-        <Navbar.Toggle
-          aria-controls={
-            // 'basic-navbar-nav',
-            'navbarResponsive'
-          }
-        />
-        <Navbar.Collapse id='navbarResponsive'>
-          <Nav className='ml-auto' as={'ul'}>
+        <Navbar.Toggle aria-controls={'navbarResponsive'} />
+        <Navbar.Collapse id='basic-navbar-nav'>
+          <Nav className='me-auto'>
             <Link className={'nav-link'} activeClassName='active' to='/'>
               Home
             </Link>
             <Link className={'nav-link'} activeClassName='active' to='/blog'>
               Blog!
             </Link>
-            <Link
-              className={'nav-link'}
-              activeClassName='active'
-              to='/portfolio'
-            >
+            <Link className={'nav-link'} activeClassName='active'to='/portfolio'>
               Portfolio
             </Link>
           </Nav>
