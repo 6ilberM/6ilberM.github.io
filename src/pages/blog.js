@@ -10,9 +10,8 @@ const BlogPage = ({ data }) => {
   return (
     <main>
       <NavigationBar />
-      <Container className={styles.mainContent}>
-        <h1>The Blog</h1>
-        <Container>
+      <Container fluid>
+        <Container md className={styles.mainContent}>
           {data.allMarkdownRemark.edges.map(({ node }) => (
             <Row>
               <Link className='btn' to={node.fields.slug}>
