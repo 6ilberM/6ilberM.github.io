@@ -1,14 +1,15 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
 import { Container, Row, Col } from 'react-bootstrap'
-import * as styles from './post.module.scss'
+import * as styles from '../scss/post.module.scss'
+import NavigationBar from '../components/NavigationBar'
 require('prismjs/themes/prism-twilight.css') //Adds the ability to see code blocks syntax highlited
-
 const Post = ({ data }) => {
   const post = data.markdownRemark
 
   return (
     <div className='wrapperJournal'>
+      <NavigationBar />
       <Container className={styles.container} fluid='md'>
         <h1 text={post.frontmatter.title}> </h1>
         <Row>

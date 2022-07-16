@@ -1,8 +1,15 @@
-@import '../scss/global.scss';
+@import './global.scss';
 
 .container {
   background-color: #241d1dbd;
+}
+
+h1 {
   color: white;
+}
+
+h2 {
+  color: rgb(230, 227, 195);
 }
 
 p {

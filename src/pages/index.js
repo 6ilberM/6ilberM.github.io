@@ -10,7 +10,7 @@ const IndexPage = () => {
     <main>
       <NavigationBar />
 
-      <Container fluid>
+      <Container>
         <h1>
           My name is Gilberto Moreno & I'm a Game Dev/Software engineer from
           Panama

@@ -1,24 +1,24 @@
-import { Link } from 'gatsby'
 import * as React from 'react'
 import '../scss/portfolio.module.scss'
 import NavigationBar from '../components/NavigationBar'
-import { Container } from 'react-bootstrap'
+import { Container, Row } from 'react-bootstrap'
+
+const content_style = {
+  position: 'relative'
+}
 
 const portfolioPage = () => {
   return (
     <main>
       <NavigationBar />
-      <h1>Hello :D welcome to my portfolio</h1>
-      <Container>
-        <p>
-          Consider Making something that listens to another Mdx file to display
-          info of each game or project that I've experimented on... Perhaps more
-          compartamentalization will result in an easier time making this...
-        </p>
+      <Container fluid style={content_style}>
+        <Container>
+          <Row>
+            <h1>Hello! My name is Gilberto Marcel Moreno!</h1>
+            <h2>I'm a gameplay programmer form Panama!</h2>
+          </Row>
+        </Container>
       </Container>
-      <Link className='btn btn-dark' to='/'>
-        Home
-      </Link>
     </main>
   )
 }
