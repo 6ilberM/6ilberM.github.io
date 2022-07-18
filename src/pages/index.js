@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Container } from 'react-bootstrap'
-import '../scss/index.module.scss'
+import * as style from '../scss/index.module.scss'
 import PortraitCard from '../components/portraitCard'
 import NavigationBar from '../components/NavigationBar'
 import _myPortraitImage from '../images/portrait.jpg'
@@ -11,7 +11,7 @@ const IndexPage = () => {
       <NavigationBar />
 
       <Container>
-        <h1>
+        <h1 className={style.titleText}>
           My name is Gilberto Moreno & I'm a Game Dev/Software engineer from
           Panama
         </h1>
