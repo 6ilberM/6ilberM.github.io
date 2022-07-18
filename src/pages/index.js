@@ -1,9 +1,9 @@
 import * as React from 'react'
 import { Container } from 'react-bootstrap'
 import * as style from '../scss/index.module.scss'
-import PortraitCard from '../components/portraitCard'
+import PortraitCard from '../components/PortraitCard'
 import NavigationBar from '../components/NavigationBar'
-import _myPortraitImage from '../images/portrait.jpg'
+import _myPortraitImage from '../images/GM-Bunny.png'
 
 const IndexPage = () => {
   return (
@@ -16,11 +16,7 @@ const IndexPage = () => {
           Panama
         </h1>
         <Container>
-          <PortraitCard
-            // titleText={'Hello My name is Gilberto Moreno'}
-            // cardContent={''}
-            cardImage={_myPortraitImage}
-          />
+          <PortraitCard cardImage={_myPortraitImage} style={{size:'20px'}} />
         </Container>
       </Container>
     </main>

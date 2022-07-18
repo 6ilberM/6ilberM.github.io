@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import { Container, Row, Col } from 'react-bootstrap'
 import * as styles from '../scss/post.module.scss'
 import NavigationBar from '../components/NavigationBar'
@@ -7,22 +7,24 @@ require('prismjs/themes/prism-twilight.css') //Adds the ability to see code bloc
 const Post = ({ data }) => {
   const post = data.markdownRemark
 
+  const titleStyle = { color: 'white' }
+
   return (
     <div className='wrapperJournal'>
       <NavigationBar />
-      <Container className={styles.container} fluid='md'>
-        <h1 text={post.frontmatter.title}> </h1>
-        <Row>
-          <Col>
-            <p dangerouslySetInnerHTML={{ __html: post.html }}></p>
-          </Col>
-        </Row>
+      <Container fluid md={10}>
+        <h1 className={styles.funkyTitle}>{post.frontmatter.title}</h1>
+        <Container className={styles.postContentContainer}>
+          <Row>
+            <Col>
+              <p
+                dangerouslySetInnerHTML={{ __html: post.html }}
+                style={titleStyle}
+              ></p>
+            </Col>
+          </Row>
+        </Container>
       </Container>
-      <div>
-        <Link className='btn btn-dark' to='/blog'>
-          return back
-        </Link>
-      </div>
     </div>
   )
 }
