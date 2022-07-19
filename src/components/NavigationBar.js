@@ -10,15 +10,9 @@ const NavigationBar = () => {
         <Navbar.Toggle aria-controls={'navbarResponsive'} />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='me-auto'>
-            <Link className={'nav-link'} activeClassName='active' to='/'>
-              Home
-            </Link>
-            <Link className={'nav-link'} activeClassName='active' to='/blog'>
-              Blog!
-            </Link>
-            <Link className={'nav-link'} activeClassName='active'to='/portfolio'>
-              Portfolio
-            </Link>
+            <Link className={'nav-link'} activeClassName='active' to='/'>Home</Link>
+            <Link className={'nav-link'} activeClassName='active' to='/blog'>Blog!</Link>
+            <Link className={'nav-link'} activeClassName='active'to='/portfolio'>Portfolio</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
