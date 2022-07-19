@@ -3,9 +3,6 @@ import { Container, Image, Row, Col } from 'react-bootstrap'
 import * as styles from '../scss/portraitCard.module.scss'
 
 const PortraitCard = ({
-  titleText,
-  optionalSubtitle,
-  cardContent,
   cardImage
 }) => {
   return (
