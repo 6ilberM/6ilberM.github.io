@@ -14,8 +14,6 @@ const portfolioPage = () => {
       <Container fluid style={content_style}>
         <Container>
           <Row>
-            <h1>Hello! My name is Gilberto Marcel Moreno!</h1>
-            <h2>I'm a gameplay programmer form Panama!</h2>
           </Row>
         </Container>
       </Container>
