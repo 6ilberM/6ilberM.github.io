@@ -1,7 +1,6 @@
 import * as React from 'react'
 import { Container, Row, Col, Image } from 'react-bootstrap'
 import * as style from '../scss/index.module.scss'
-import PortraitCard from '../components/PortraitCard'
 import NavigationBar from '../components/NavigationBar'
 import _myPortraitImage from '../images/GM-Bunny.png'
 
@@ -15,21 +14,28 @@ const IndexPage = () => {
             <Image fluid src={_myPortraitImage} alt={_myPortraitImage} />
           </Col>
           <Col>
-            <Image fluid  src={_myPortraitImage} alt={_myPortraitImage} />
-          </Col>          <Col>
-            <Image fluid  src={_myPortraitImage} alt={_myPortraitImage} />
-          </Col>          <Col>
-            <Image fluid  src={_myPortraitImage} alt={_myPortraitImage} />
-          </Col>          <Col>
-            <Image fluid  src={_myPortraitImage} alt={_myPortraitImage} />
-          </Col>          <Col>
-            <Image fluid  src={_myPortraitImage} alt={_myPortraitImage} />
-          </Col>          <Col>
-            <Image fluid  src={_myPortraitImage} alt={_myPortraitImage} />
-          </Col>          <Col>
-            <Image fluid  src={_myPortraitImage} alt={_myPortraitImage} />
-          </Col>          <Col>
-            <Image fluid  src={_myPortraitImage} alt={_myPortraitImage} />
+            <Image fluid src={_myPortraitImage} alt={_myPortraitImage} />
+          </Col>{' '}
+          <Col>
+            <Image fluid src={_myPortraitImage} alt={_myPortraitImage} />
+          </Col>{' '}
+          <Col>
+            <Image fluid src={_myPortraitImage} alt={_myPortraitImage} />
+          </Col>{' '}
+          <Col>
+            <Image fluid src={_myPortraitImage} alt={_myPortraitImage} />
+          </Col>{' '}
+          <Col>
+            <Image fluid src={_myPortraitImage} alt={_myPortraitImage} />
+          </Col>{' '}
+          <Col>
+            <Image fluid src={_myPortraitImage} alt={_myPortraitImage} />
+          </Col>{' '}
+          <Col>
+            <Image fluid src={_myPortraitImage} alt={_myPortraitImage} />
+          </Col>{' '}
+          <Col>
+            <Image fluid src={_myPortraitImage} alt={_myPortraitImage} />
           </Col>
         </Row>
       </Container>
