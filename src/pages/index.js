@@ -8,20 +8,13 @@ const IndexPage = () => {
   return (
     <main>
       <NavigationBar />
-      <Container fluid style={{ position: 'relative', top: '200px' }}>
+      <Container fluid style={{ position: 'relative', top: '60px' }}>
         <Row>
           <Col fluid sm={2}>
-            <Image
-              rounded={true}
-              fluid
-              src={_myPortraitImage}
-              alt={_myPortraitImage}
-            />
+            <Image rounded={true} fluid src={_myPortraitImage} alt={_myPortraitImage}/>
           </Col>
           <Col>
-            <p style={{ color: 'white' }}>
-              This is more Personal experiments for how to style a website
-            </p>
+            <p style={{ color: 'white' }}> Software Engineer </p>
           </Col>
         </Row>
       </Container>
