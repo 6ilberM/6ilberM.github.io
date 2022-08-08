@@ -14,7 +14,7 @@ const portfolioPage = () => {
       <Container fluid style={content_style}>
         <Container>
           <Row>
-            <Button
+            <Button size='sm'
               href='https://docs.google.com/document/d/1qCgo6lXCTizieMTYZIFztEDsZXifV_3Sxfq1ILncjkI/edit?usp=sharing'
             >
               Curriculum - Resume
