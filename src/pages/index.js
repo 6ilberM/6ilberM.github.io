@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Container, Row, Col, Image, FormText } from 'react-bootstrap'
+import { Container, Row, Col, Image } from 'react-bootstrap'
 import * as style from '../scss/index.module.scss'
 import NavigationBar from '../components/NavigationBar'
 import _myPortraitImage from '../images/GM-Bunny.png'
@@ -19,7 +19,9 @@ const IndexPage = () => {
             />
           </Col>
           <Col>
-            <p style={{ color: 'white' }}>This is more Personal experiments for how to style a website</p>
+            <p style={{ color: 'white' }}>
+              This is more Personal experiments for how to style a website
+            </p>
           </Col>
         </Row>
       </Container>
