@@ -14,7 +14,9 @@ const IndexPage = () => {
             <Image rounded={true} fluid src={_myPortraitImage} alt={_myPortraitImage}/>
           </Col>
           <Col>
-            <p style={{ color: 'white' }}> Software Engineer </p>
+            <p style={{ color: 'white' }}> Gilberto Moreno, I like making things & games</p>
+            <p style={{ color: 'white' }}> I believe dreams shape the world, 
+            so i dream to make games people will love </p>
           </Col>
         </Row>
       </Container>
