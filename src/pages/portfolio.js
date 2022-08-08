@@ -1,7 +1,7 @@
 import * as React from 'react'
 import '../scss/portfolio.module.scss'
 import NavigationBar from '../components/NavigationBar'
-import { Container, Row } from 'react-bootstrap'
+import { Button, Container, Row } from 'react-bootstrap'
 
 const content_style = {
   position: 'relative'
@@ -14,6 +14,11 @@ const portfolioPage = () => {
       <Container fluid style={content_style}>
         <Container>
           <Row>
+            <Button
+              href='https://docs.google.com/document/d/1qCgo6lXCTizieMTYZIFztEDsZXifV_3Sxfq1ILncjkI/edit?usp=sharing'
+            >
+              Curriculum - Resume
+            </Button>
           </Row>
         </Container>
       </Container>
