@@ -1,35 +1,35 @@
 import * as React from 'react'
 import * as styles from '../scss/blog.module.scss'
-import { Container, Col } from 'react-bootstrap'
+import {Container, Col} from 'react-bootstrap'
 import Row from 'react-bootstrap/Row'
 import NavigationBar from '../components/NavigationBar'
 
-import { graphql, Link } from 'gatsby'
+import {graphql, Link} from 'gatsby'
 
-const BlogPage = ({ data }) => {
-  return (
-    <main>
-      <NavigationBar />
-      <Container fluid>
-        <Container md className={styles.mainContent}>
-          {data.allMarkdownRemark.edges.map(({ node }) => (
-            <Row>
-              <Link className='btn' to={node.fields.slug}>
-                <article>
-                  <Col>
-                    <strong>{node.frontmatter.title}</strong>
-                  </Col>
-                  <Col>
-                    <p>{node.excerpt}</p>
-                  </Col>
-                </article>
-              </Link>
-            </Row>
-          ))}
-        </Container>
-      </Container>
-    </main>
-  )
+const BlogPage = ({data}) => {
+    return (
+        <main>
+            <NavigationBar/>
+            <Container fluid>
+                <Container md className={styles.mainContent}>
+                    {data.allMarkdownRemark.edges.map(({node}) => (
+                        <Row>
+                            <Link className='btn' to={node.fields.slug}>
+                                <article>
+                                    <Col>
+                                        <strong>{node.frontmatter.title}</strong>
+                                    </Col>
+                                    <Col>
+                                        <p>{node.excerpt}</p>
+                                    </Col>
+                                </article>
+                            </Link>
+                        </Row>
+                    ))}
+                </Container>
+            </Container>
+        </main>
+    )
 }
 
 export const query = graphql`
