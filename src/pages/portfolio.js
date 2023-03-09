@@ -8,21 +8,19 @@ const content_style = {
 }
 
 const portfolioPage = () => {
-    return (
-        <main>
-            <NavigationBar/>
-            <Container fluid style={content_style}>
-                <Container>
-                    <Row>
-                        <Button size='sm'
-                                href='https://docs.google.com/document/d/1qCgo6lXCTizieMTYZIFztEDsZXifV_3Sxfq1ILncjkI/edit?usp=sharing'>
-                            Curriculum - Resume
-                        </Button>
-                    </Row>
-                </Container>
+    return (<main>
+        <NavigationBar/>
+        <Container fluid style={content_style}>
+            <Container>
+                <Row>
+                    <Button size='sm'
+                            href='https://docs.google.com/document/d/1qCgo6lXCTizieMTYZIFztEDsZXifV_3Sxfq1ILncjkI/edit?usp=sharing'>
+                        Curriculum - Resume
+                    </Button>
+                </Row>
             </Container>
-        </main>
-    )
+        </Container>
+    </main>)
 }
 
 export default portfolioPage

@@ -7,29 +7,25 @@ import NavigationBar from '../components/NavigationBar'
 import {graphql, Link} from 'gatsby'
 
 const BlogPage = ({data}) => {
-    return (
-        <main>
-            <NavigationBar/>
-            <Container fluid>
-                <Container md className={styles.mainContent}>
-                    {data.allMarkdownRemark.edges.map(({node}) => (
-                        <Row>
-                            <Link className='btn' to={node.fields.slug}>
-                                <article>
-                                    <Col>
-                                        <strong>{node.frontmatter.title}</strong>
-                                    </Col>
-                                    <Col>
-                                        <p>{node.excerpt}</p>
-                                    </Col>
-                                </article>
-                            </Link>
-                        </Row>
-                    ))}
-                </Container>
+    return (<main>
+        <NavigationBar/>
+        <Container fluid>
+            <Container md className={styles.mainContent}>
+                {data.allMarkdownRemark.edges.map(({node}) => (<Row>
+                    <Link className='btn' to={node.fields.slug}>
+                        <article>
+                            <Col>
+                                <strong>{node.frontmatter.title}</strong>
+                            </Col>
+                            <Col>
+                                <p>{node.excerpt}</p>
+                            </Col>
+                        </article>
+                    </Link>
+                </Row>))}
             </Container>
-        </main>
-    )
+        </Container>
+    </main>)
 }
 
 export const query = graphql`
