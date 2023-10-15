@@ -4,9 +4,9 @@ import * as style from '../scss/index.module.scss'
 import NavigationBar from '../components/NavigationBar'
 import _myPortraitImage from '../images/GM-Bunny.png'
 import {graphql} from 'gatsby';
+import GetBlogPosts from '../components/GetBlogPosts';
 
 const textStyling = {color: 'white', fontSize: '20px', fontFamily: 'Lucida Sans'}
-
 
 
 const IndexPage = (data) => {
@@ -27,7 +27,7 @@ const IndexPage = (data) => {
 
                 {/* Display recent blog posts */}
                 <h2>Recent Blog Posts</h2>
-                {GetBlogPosts(data)}
+                <GetBlogPosts/>
             </Row>
         </Container>
     </main>)
