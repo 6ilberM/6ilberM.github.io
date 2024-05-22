@@ -16,5 +16,6 @@ site.use(sass());
 site.use(slugify_urls());
 site.use(tailwindcss());
 site.use(postcss());
+site.copy("styles");
 
 export default site;

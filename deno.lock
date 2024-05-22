@@ -56,6 +56,7 @@
       "npm:remark-rehype@11.1.0": "npm:remark-rehype@11.1.0",
       "npm:sass@1.77.2": "npm:sass@1.77.2",
       "npm:tailwindcss@3.4.3": "npm:tailwindcss@3.4.3_postcss@8.4.38",
+      "npm:tailwindcss@^3.4.3": "npm:tailwindcss@3.4.3_postcss@8.4.38",
       "npm:unidecode@1.0.1": "npm:unidecode@1.0.1",
       "npm:unified@11.0.4": "npm:unified@11.0.4"
     },
@@ -2090,7 +2091,8 @@
   "redirects": {
     "https://deno.land/x/nano_jsx/mod.ts": "https://deno.land/x/nano_jsx@v0.1.0/mod.ts",
     "https://esm.sh/v128/@types/react@~17.0/index.d.ts": "https://esm.sh/v128/@types/react@17.0.71/index.d.ts",
-    "https://esm.sh/v128/@types/react@~17.0/jsx-runtime~.d.ts": "https://esm.sh/v128/@types/react@17.0.71/jsx-runtime~.d.ts"
+    "https://esm.sh/v128/@types/react@~17.0/jsx-runtime~.d.ts": "https://esm.sh/v128/@types/react@17.0.71/jsx-runtime~.d.ts",
+    "https://esm.sh/v135/@types/react-router-dom@~5.3/index.d.ts": "https://esm.sh/v135/@types/react-router-dom@5.3.3/index.d.ts"
   },
   "remote": {
     "https://cdn.skypack.dev/-/object-assign@v4.1.1-LbCnB3r2y2yFmhmiCfPn/dist=es2019,mode=imports/optimized/object-assign.js": "d75198c87b0640a682645d8cfdbaa67b5dd4b71aec625582e65d05e87caba008",
