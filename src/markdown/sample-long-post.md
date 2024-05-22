@@ -1,6 +1,6 @@
 ---
 title: "Experiment Long Post!"
-date: "2022-16-07"
+date: "2022-07-16"
 category: 
 - Experimental
 tags:
