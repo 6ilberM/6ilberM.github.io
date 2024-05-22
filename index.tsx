@@ -5,11 +5,14 @@ export const title = "Gilberto Moreno";
 const Home: React.FC = () => {
   return (
     <html lang="en">
+        
       <head>
+
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Gilberto Moreno's Portfolio</title>
-        <link rel="stylesheet" href="/static/styles.css" />
+        <link rel="stylesheet" href="/scss/main.css"/>
+
       </head>
       <body>
         <nav>
@@ -26,7 +29,7 @@ const Home: React.FC = () => {
           <a href="https://docs.google.com/document/d/1qCgo6lXCTizieMTYZIFztEDsZXifV_3Sxfq1ILncjkI/edit?usp=sharing">Curriculum - Resume</a>
         </main>
         <footer>
-          <p>&copy; 2023 Gilberto Moreno. All rights reserved.</p>
+          <p>&copy; 2024 Gilberto Moreno. All rights reserved.</p>
         </footer>
       </body>
     </html>
