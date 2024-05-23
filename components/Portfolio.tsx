@@ -1,12 +1,10 @@
-// components/Portfolio.jsx
-import React from 'react';
+import React from "react";
 
 const Portfolio = () => {
   return (
     <div>
-      <h1>Portfolio</h1>
+      <h2>Portfolio</h2>
       <p>Welcome to my portfolio page!</p>
-      // Add more content and structure as needed
     </div>
   );
 };
