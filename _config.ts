@@ -14,6 +14,6 @@ site.use(remark());
 site.use(sass());
 site.use(slugify_urls());
 site.use(postcss());
-site.copy("styles");
+site.copy("./src/styles");
 
 export default site;
