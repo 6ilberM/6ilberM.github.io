@@ -4,7 +4,6 @@ import mdx from "lume/plugins/mdx.ts";
 import remark from "lume/plugins/remark.ts";
 import sass from "lume/plugins/sass.ts";
 import slugify_urls from "lume/plugins/slugify_urls.ts";
-import tailwindcss from "lume/plugins/tailwindcss.ts";
 import postcss from "lume/plugins/postcss.ts";
 
 const site = lume();
@@ -14,7 +13,6 @@ site.use(mdx());
 site.use(remark());
 site.use(sass());
 site.use(slugify_urls());
-site.use(tailwindcss());
 site.use(postcss());
 site.copy("styles");
 
