@@ -14,13 +14,20 @@ const Home: React.FC = () => {
       <body>
         <nav>
           <ul>
-            <li><a href="/">Home</a></li>
+            <li>
+              <a href="/">Home</a>
+            </li>
           </ul>
         </nav>
         <main>
           <h1>Welcome to My Portfolio</h1>
-          <p>I like making things & games. I believe dreams shape the world, so I dream to make games people will love.</p>
-          <a href="https://docs.google.com/document/d/1qCgo6lXCTizieMTYZIFztEDsZXifV_3Sxfq1ILncjkI/edit?usp=sharing">Curriculum - Resume</a>
+          <p>
+            I like making things & games. I believe dreams shape the world, so I
+            dream to make games people will love.
+          </p>
+          <a href="https://docs.google.com/document/d/1qCgo6lXCTizieMTYZIFztEDsZXifV_3Sxfq1ILncjkI/edit?usp=sharing">
+            Curriculum - Resume
+          </a>
         </main>
         <footer>
           <p>&copy; 2024 Gilberto Moreno. All rights reserved.</p>

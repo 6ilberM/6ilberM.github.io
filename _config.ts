@@ -6,7 +6,11 @@ import sass from "lume/plugins/sass.ts";
 import slugify_urls from "lume/plugins/slugify_urls.ts";
 import postcss from "lume/plugins/postcss.ts";
 
-const site = lume();
+const site = lume(
+  {
+    src: "./src",
+  },
+);
 
 site.use(jsx());
 site.use(mdx());
