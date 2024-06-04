@@ -30,10 +30,15 @@ const Home: React.FC = () => {
           </a>
         </main>
         <footer>
-          <p>&copy; 2024 Gilberto Moreno. All rights reserved.</p>
-          <a href="https://github.com/6ilberM/6ilberM.github.io">
-            Website Repo
-          </a>
+          <div className="my_links">
+            <p>&copy; 2024 Gilberto Moreno. All rights reserved.</p>
+            <a href="https://github.com/6ilberM/6ilberM.github.io">
+              Website Repo
+            </a>
+            <a rel="me" href="https://mastodon.gamedev.place/@6ilberm">
+              Mastodon
+            </a>
+          </div>
         </footer>
       </body>
     </html>
