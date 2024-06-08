@@ -9,7 +9,7 @@ import postcss from "lume/plugins/postcss.ts";
 const site = lume(
   {
     src: "./src",
-  },
+  }
 );
 
 site.use(jsx());
