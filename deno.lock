@@ -35,6 +35,8 @@
       "npm:@mdx-js/mdx@3.0.1": "npm:@mdx-js/mdx@3.0.1",
       "npm:@types/estree@1.0.5": "npm:@types/estree@1.0.5",
       "npm:@types/react": "npm:@types/react@18.3.2",
+      "npm:@types/react-dom@18.3.0": "npm:@types/react-dom@18.3.0",
+      "npm:@types/react@18.3.2": "npm:@types/react@18.3.2",
       "npm:autoprefixer@10.4.19": "npm:autoprefixer@10.4.19_postcss@8.4.38",
       "npm:estree-walker@3.0.3": "npm:estree-walker@3.0.3",
       "npm:markdown-it-attrs@4.1.6": "npm:markdown-it-attrs@4.1.6_markdown-it@14.1.0",
@@ -240,6 +242,12 @@
       "@types/prop-types@15.7.12": {
         "integrity": "sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==",
         "dependencies": {}
+      },
+      "@types/react-dom@18.3.0": {
+        "integrity": "sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==",
+        "dependencies": {
+          "@types/react": "@types/react@18.3.2"
+        }
       },
       "@types/react@18.3.2": {
         "integrity": "sha512-Btgg89dAnqD4vV7R3hlwOxgqobUQKgx3MmrQRi0yYbs/P0ym8XozIAlkqVilPqHQwXs4e9Tf63rrCgl58BcO4w==",
