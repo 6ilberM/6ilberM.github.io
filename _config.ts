@@ -20,6 +20,6 @@ siteBuild.use(sass());
 siteBuild.use(codeHighlight());
 siteBuild.use(slugify_urls());
 siteBuild.use(postcss());
-siteBuild.copy("./src/styles");
+siteBuild.copy("./src/styles", "styles");
 
 export default siteBuild;
