@@ -4,20 +4,21 @@ import mdx from "lume/plugins/mdx.ts";
 import remark from "lume/plugins/remark.ts";
 import sass from "lume/plugins/sass.ts";
 import slugify_urls from "lume/plugins/slugify_urls.ts";
+import codeHighlight from "lume/plugins/code_highlight.ts";
 import postcss from "lume/plugins/postcss.ts";
 
-const site = lume(
+const siteBuild = lume(
   {
     src: "./src",
-  }
+  },
 );
 
-site.use(jsx());
-site.use(mdx());
-site.use(remark());
-site.use(sass());
-site.use(slugify_urls());
-site.use(postcss());
-site.copy("./src/styles");
+siteBuild.use(jsx());
+siteBuild.use(mdx());
+siteBuild.use(remark());
+siteBuild.use(sass());
+siteBuild.use(slugify_urls());
+siteBuild.use(postcss());
+siteBuild.copy("./src/styles");
 
-export default site;
+export default siteBuild;
