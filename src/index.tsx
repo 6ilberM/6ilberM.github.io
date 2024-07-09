@@ -1,5 +1,4 @@
 import React from "react";
-
 export const title = "Gilberto Moreno";
 
 const Home: React.FC = () => {
@@ -11,6 +10,7 @@ const Home: React.FC = () => {
         <title>6ilberM's website?</title>
         <link rel="stylesheet" href="../styles/main.css" />
       </head>
+
       <body>
         <nav>
           <ul>
