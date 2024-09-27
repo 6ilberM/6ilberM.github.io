@@ -10,7 +10,6 @@ import postcss from "lume/plugins/postcss.ts";
 const siteBuild = lume(
   {
     src: "./src",
-    dest: "./_site",
   },
 );
 
