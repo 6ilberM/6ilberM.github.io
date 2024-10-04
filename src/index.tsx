@@ -8,7 +8,6 @@ const Home: React.FC = () => {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>6ilberM's website?</title>
-        <link rel="stylesheet" href="/styles/main.css" />
       </head>
 
       <body>
