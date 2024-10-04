@@ -22,6 +22,6 @@ siteBuild.use(codeHighlight());
 siteBuild.use(sass());
 siteBuild.use(postcss());
 
-siteBuild.copy("./src/styles", "styles"); // Ensure this line is present
+siteBuild.copy("./src/Styles", "Styles"); // Ensure this line is present
 
 export default siteBuild;
