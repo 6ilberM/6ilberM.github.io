@@ -19,7 +19,10 @@ const Home: React.FC = () => {
             </li>
           </ul>
         </nav>
+
         <main>
+          <br />
+
           <h1>Welcome to My Portfolio</h1>
           <p>
             I like making things & games. I believe dreams shape the world, so I
