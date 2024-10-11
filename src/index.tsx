@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./components/Footer.tsx";
 export const title = "Gilberto Moreno";
 
 const Home: React.FC = () => {
@@ -12,6 +13,7 @@ const Home: React.FC = () => {
                 />
                 <title>6ilberM's Website</title>
                 <link rel="stylesheet" href="./Styles/main.css" />
+                <link rel="stylesheet" href="/Styles/footer.css" />
             </head>
 
             <body>
@@ -35,20 +37,7 @@ const Home: React.FC = () => {
                         Curriculum - Resume
                     </a>
                 </main>
-                <footer>
-                    <div className="my_links">
-                        <p>&copy; 2024 Gilberto Moreno. All rights reserved.</p>
-                        <a href="https://github.com/6ilberM/6ilberM.github.io">
-                            Website Repo
-                        </a>
-                        <a
-                            rel="me"
-                            href="https://mastodon.gamedev.place/@6ilberm"
-                        >
-                            Mastodon
-                        </a>
-                    </div>
-                </footer>
+                <Footer />
             </body>
         </html>
     );

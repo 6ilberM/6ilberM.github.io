@@ -14,26 +14,21 @@ $text-color-2: wheat;
   font-display: swap;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
   background-color: $color-pallette-1;
   font-family: 'JetBrains Mono', monospace;
+  flex-direction: column;
   background-image: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.55)),
   $bg-Image-1;
+  min-height: 100vh;
 }
 
-p {
-  color: $text-color-2;
-}
-
-h1 {
-  color: $text-color-2;
-}
-
-h2 {
-  color: $text-color-2;
-}
-
-h3 {
+p, h1, h2, h3 {
   color: $text-color-2;
 }
 
