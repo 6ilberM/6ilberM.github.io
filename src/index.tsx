@@ -28,11 +28,21 @@ const Home: React.FC = () => {
 
                     <main className="site-content">
                         <br />
-                        <h1>Welcome to My Portfolio</h1>
+                        <h1>Greetings! 😀</h1>
+                        <h2>
+                            I'm Gilberto Moreno<br />
+                        </h2>
+                        <h3>
+                            Software engineer & Game Developer.
+                        </h3>
+                        
+                        
                         <p>
-                            I like making things & games. I believe dreams shape
-                            the world, so I dream to make games people will
-                            love.
+                            I like making things & games.
+                        </p>
+                        <p>
+                            I believe dreams shape the world, so I dream to make
+                            games people will love.
                         </p>
                         <a href="https://docs.google.com/document/d/1qCgo6lXCTizieMTYZIFztEDsZXifV_3Sxfq1ILncjkI/edit?usp=sharing">
                             Curriculum - Resume
