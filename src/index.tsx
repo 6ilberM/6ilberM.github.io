@@ -13,31 +13,34 @@ const Home: React.FC = () => {
                 />
                 <title>6ilberM's Website</title>
                 <link rel="stylesheet" href="./Styles/main.css" />
-                <link rel="stylesheet" href="/Styles/footer.css" />
+                <link rel="stylesheet" href="./Styles/footer.css" />
             </head>
 
             <body>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="/">Home</a>
-                        </li>
-                    </ul>
-                </nav>
+                <div className="site">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="/">Home</a>
+                            </li>
+                        </ul>
+                    </nav>
 
-                <main>
-                    <br />
+                    <main className="site-content">
+                        <br />
+                        <h1>Welcome to My Portfolio</h1>
+                        <p>
+                            I like making things & games. I believe dreams shape
+                            the world, so I dream to make games people will
+                            love.
+                        </p>
+                        <a href="https://docs.google.com/document/d/1qCgo6lXCTizieMTYZIFztEDsZXifV_3Sxfq1ILncjkI/edit?usp=sharing">
+                            Curriculum - Resume
+                        </a>
+                    </main>
 
-                    <h1>Welcome to My Portfolio</h1>
-                    <p>
-                        I like making things & games. I believe dreams shape the
-                        world, so I dream to make games people will love.
-                    </p>
-                    <a href="https://docs.google.com/document/d/1qCgo6lXCTizieMTYZIFztEDsZXifV_3Sxfq1ILncjkI/edit?usp=sharing">
-                        Curriculum - Resume
-                    </a>
-                </main>
-                <Footer />
+                    <Footer />
+                </div>
             </body>
         </html>
     );
