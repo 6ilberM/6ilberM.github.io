@@ -1,4 +1,3 @@
-
 import lume from "lume/mod.ts";
 import jsx from "lume/plugins/jsx.ts";
 import mdx from "lume/plugins/mdx.ts";
@@ -9,20 +8,19 @@ import codeHighlight from "lume/plugins/code_highlight.ts";
 import postcss from "lume/plugins/postcss.ts";
 
 const siteBuild = lume(
-  {
-    src: "./src",
-  },
+    {
+        src: "./src",
+    },
 );
 
 siteBuild.use(jsx());
 siteBuild.use(mdx());
 siteBuild.use(remark());
-
 siteBuild.use(slugify_urls());
 siteBuild.use(codeHighlight());
 siteBuild.use(sass());
 siteBuild.use(postcss());
 
-siteBuild.copy("./src/styles", "Styles"); // Ensure this line is present
+siteBuild.copy("./src/styles", "Styles");
 
 export default siteBuild;
