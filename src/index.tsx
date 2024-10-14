@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "./components/Footer.tsx";
+import SupportMeWidget from "./components/SupportMeWidget.tsx";
 export const title = "Gilberto Moreno";
 
 const Home: React.FC = () => {
@@ -50,6 +51,9 @@ const Home: React.FC = () => {
                         <a href="https://docs.google.com/document/d/1qCgo6lXCTizieMTYZIFztEDsZXifV_3Sxfq1ILncjkI/edit?usp=sharing">
                             Curriculum - Resume
                         </a>
+                        <br />
+
+                        <SupportMeWidget />
                     </main>
 
                     <Footer />
