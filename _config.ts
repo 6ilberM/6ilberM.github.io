@@ -21,7 +21,7 @@ siteBuild.use(codeHighlight());
 siteBuild.use(sass());
 siteBuild.use(postcss());
 
-siteBuild.copy("./src/styles", "Styles");
+siteBuild.copy("styles", "Styles");
 siteBuild.copy("static", "static");
 
 export default siteBuild;
