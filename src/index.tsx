@@ -32,11 +32,14 @@ const Home: React.FC = () => {
                         <h2>
                             I'm Gilberto Moreno<br />
                         </h2>
+                        <img
+                            src="./static/images/GM-Bunny_Animated_600.gif"
+                            alt="My Avatar"
+                        />
                         <h3>
                             Software engineer & Game Developer.
                         </h3>
-                        
-                        
+
                         <p>
                             I like making things & games.
                         </p>

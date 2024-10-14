@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
                                 className="mastodon-button"
                             >
                                 <img
-                                    src="../images/logo-white.svg"
+                                    src="../static/images/logo-white.svg"
                                     alt="Mastodon Logo"
                                     className="mastodon-logo"
                                 />
