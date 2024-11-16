@@ -48,7 +48,10 @@ const Home: React.FC = () => {
                             I believe dreams shape the world, so I dream to make
                             games people will love.
                         </p>
-                        <a href="https://docs.google.com/document/d/1qCgo6lXCTizieMTYZIFztEDsZXifV_3Sxfq1ILncjkI/edit?usp=sharing">
+                        <a
+                            className="curriculum-vitae-button"
+                            href="https://drive.google.com/file/d/1--t4DQJFXh9ti8ZPsKtAqUAe_GFvhEo6/view?usp=sharing"
+                        >
                             Curriculum - Resume
                         </a>
                         <br />
