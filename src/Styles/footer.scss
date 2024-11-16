@@ -4,8 +4,10 @@ $footer-text: #ffffff;
 $footer-link: #4CAF50;
 $footer-link-hover: #235025;
 
-// Footer Styles
+
 .footer {
+  margin-top: auto;
+  width: 100%;
   background-color: $footer-bg;
   color: $footer-text;
   padding: 2rem 0;

@@ -18,18 +18,24 @@ $content-color-link-hover: #235025;
   font-display: swap;
 }
 
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   background-color: $color-palette-1 !important;
   font-family: 'JetBrains Mono', monospace;
-  flex-direction: column;
   background-image: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.55)),
   $bg-Image-1 !important;
+}
+
+.site {
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
+}
+
+.site-content {
+  flex-grow: 1;
 }
 
 p, h1, h2, h3 {
