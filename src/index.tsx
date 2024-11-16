@@ -16,7 +16,6 @@ const Home: React.FC = () => {
                 <link rel="stylesheet" href="./Styles/main.css" />
                 <link rel="stylesheet" href="./Styles/footer.css" />
             </head>
-
             <body>
                 <div className="site">
                     <nav>
@@ -26,7 +25,6 @@ const Home: React.FC = () => {
                             </li>
                         </ul>
                     </nav>
-
                     <main className="site-content">
                         <div className="header-container">
                             <div className="text-container">
@@ -36,11 +34,14 @@ const Home: React.FC = () => {
                                     Software engineer & Game Developer.
                                 </h3>
                             </div>
-                            <img
-                                src="./static/images/GM-Bunny_Animated_600.gif"
-                                alt="My Avatar"
-                                className="avatar"
-                            />
+                            <div className="profile-container">
+                                <img
+                                    src="./static/images/GM-Bunny_Animated_600.gif"
+                                    // src="./static/images/QxcOZ89Q.jpeg"
+                                    alt="My Avatar"
+                                    className="avatar profile-image"
+                                />
+                            </div>
                         </div>
 
                         <p>
