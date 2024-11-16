@@ -28,18 +28,20 @@ const Home: React.FC = () => {
                     </nav>
 
                     <main className="site-content">
-                        <br />
-                        <h1>Greetings! 😀</h1>
-                        <h2>
-                            I'm Gilberto Moreno<br />
-                        </h2>
-                        <img
-                            src="./static/images/GM-Bunny_Animated_600.gif"
-                            alt="My Avatar"
-                        />
-                        <h3>
-                            Software engineer & Game Developer.
-                        </h3>
+                        <div className="header-container">
+                            <div className="text-container">
+                                <h1>Greetings! 😀</h1>
+                                <h2>I'm Gilberto Moreno</h2>
+                                <h3>
+                                    Software engineer & Game Developer.
+                                </h3>
+                            </div>
+                            <img
+                                src="./static/images/GM-Bunny_Animated_600.gif"
+                                alt="My Avatar"
+                                className="avatar"
+                            />
+                        </div>
 
                         <p>
                             I like making things & games.

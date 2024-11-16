@@ -26,6 +26,14 @@ body {
   font-family: 'JetBrains Mono', monospace;
   background-image: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.55)),
   $bg-Image-1 !important;
+  line-height: 1.6;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
 }
 
 .site {
@@ -34,12 +42,43 @@ body {
   min-height: 100vh;
 }
 
+.avatar {
+  flex-basis: 30%;
+  max-width: 300px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+  }
+
+  .text-container {
+    margin-bottom: 1rem;
+  }
+
+  .avatar {
+    width: 100%;
+  }
+}
+
+.text-container {
+  flex-basis: 60%;
+}
+
 .site-content {
   flex-grow: 1;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 p, h1, h2, h3 {
   color: $text-color-2;
+}
+
+p {
+  margin-bottom: 1rem;
 }
 
 .container {
@@ -79,4 +118,20 @@ p, h1, h2, h3 {
 
 .curriculum-vitae-button:hover {
   color: $content-color-link-hover;
+}
+
+a {
+  text-decoration: none;
+  color: $content-color-link;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: $content-color-link-hover;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
 }
