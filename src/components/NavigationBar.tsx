@@ -11,10 +11,10 @@ const NavigationBar = () => {
                     <a href="./pages/about">About</a>
                 </li>
                 <li>
-                    <a href="/portfolio">Portfolio</a>
+                    <a href="./pages/portfolio">Portfolio</a>
                 </li>
                 <li>
-                    <a href="/contact">Contact</a>
+                    <a href="./pages/contact">Contact</a>
                 </li>
             </ul>
         </nav>
