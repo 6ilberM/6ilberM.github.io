@@ -9,10 +9,10 @@ const NavigationBar = () => {
                     <a href="/about/">About</a> {/* Note the trailing slash */}
                 </li>
                 <li>
-                    <a href="./portfolio">Portfolio</a>
+                    <a href="/portfolio">Portfolio</a>
                 </li>
                 <li>
-                    <a href="./contact">Contact</a>
+                    <a href="/contact">Contact</a>
                 </li>
             </ul>
         </nav>
