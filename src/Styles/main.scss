@@ -6,7 +6,7 @@ $color-palette-2: #2b003f;
 $text-color-1: rgba(139, 127, 145);
 $text-color-2: wheat;
 
-$content-color-link: #4CAF50;
+$content-color-link: #2ea831;
 $content-color-link-hover: #235025;
 
 @font-face {
@@ -23,7 +23,7 @@ $content-color-link-hover: #235025;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  background-color: #d9e0e6ba; // Adjust background color as needed
+
   padding: 2rem;
   box-sizing: border-box;
 }
@@ -37,18 +37,29 @@ body {
   line-height: 1.6;
 }
 
+.header {
+  background-color: #343a40;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2rem;
+  background-color: rgb(22, 21, 26); // Adjust background color as needed
 }
+
+.header-container, .footer-content {
+  padding: 2rem;
+}
+
 
 .profile-container {
   width: 300px; // Adjust size as needed
   height: 300px;
-  //border-radius: 50%;
-  //overflow: hidden;
   flex-shrink: 0; // Prevents the container from shrinking
 }
 
@@ -64,11 +75,6 @@ body {
   min-height: 100vh;
 }
 
-.site-content {
-  flex-grow: 1;
-  padding: 2rem;
-  max-width: 800px;
-}
 
 .avatar {
   flex-basis: 30%;
@@ -99,6 +105,22 @@ p, h1, h2, h3 {
   color: $text-color-2;
 }
 
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
 p {
   margin-bottom: 1rem;
 }
@@ -107,13 +129,6 @@ p {
   max-width: 1200px;
   margin: 0 auto;
   padding: 1rem;
-}
-
-.header {
-  background-color: #343a40;
-  color: #fff;
-  padding: 1rem;
-  text-align: center;
 }
 
 .grid-container {
@@ -131,15 +146,17 @@ p {
 }
 
 .curriculum-vitae-button {
-  color: $content-color-link;
-  text-decoration: none;
-  transition: color 0.6s ease;
-  display: flex;
-  align-items: center;
+  background-color: $content-color-link;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
 }
 
+
 .curriculum-vitae-button:hover {
-  color: $content-color-link-hover;
+  background-color: $content-color-link-hover;
+  color: #fff;
 }
 
 a {
