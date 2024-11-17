@@ -1,4 +1,4 @@
-import { title } from "../index.tsx";
+import React from "react";
 
 const About = () => {
     return (
@@ -10,13 +10,15 @@ const About = () => {
                     content="width=device-width, initial-scale=1.0"
                 />
                 <title>6ilberM's Website</title>
-                <link rel="stylesheet" href="../Styles/footer.css" />
-                <link rel="stylesheet" href="../Styles/main.css" />
+                <link rel="stylesheet" href="./Styles/footer.css" />
+                <link rel="stylesheet" href="./Styles/main.css" />
             </head>
-            <div>
-                <h2>About Me</h2>
-                <p>I am a programmer and overall mad person!!</p>
-            </div>
+            <body>
+                <div>
+                    <h2>About Me</h2>
+                    <p>I am a programmer and overall mad person!!</p>
+                </div>
+            </body>
         </html>
     );
 };
