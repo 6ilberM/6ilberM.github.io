@@ -11,6 +11,7 @@ const siteBuild = lume(
     {
         src: "./src",
         location: new URL("https://www.6ilberm.io"),
+        includes: "_includes", // This ensures layouts are found
     },
 );
 

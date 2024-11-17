@@ -1,5 +1,3 @@
-// import React from "react";
-
 const NavigationBar = () => {
     return (
         <nav>
@@ -8,13 +6,13 @@ const NavigationBar = () => {
                     <a href="/">Home</a>
                 </li>
                 <li>
-                    <a href="./pages/about">About</a>
+                    <a href="/about/">About</a> {/* Note the trailing slash */}
                 </li>
                 <li>
-                    <a href="./pages/portfolio">Portfolio</a>
+                    <a href="./portfolio">Portfolio</a>
                 </li>
                 <li>
-                    <a href="./pages/contact">Contact</a>
+                    <a href="./contact">Contact</a>
                 </li>
             </ul>
         </nav>
