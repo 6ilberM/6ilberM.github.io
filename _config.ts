@@ -10,6 +10,7 @@ import postcss from "lume/plugins/postcss.ts";
 const siteBuild = lume(
     {
         src: "./src",
+        location: new URL("https://www.6ilberm.io"),
     },
 );
 

@@ -1,6 +1,9 @@
 import React from "react";
+
+import NavigationBar from "./components/NavigationBar.tsx";
 import Footer from "./components/Footer.tsx";
 import SupportMeWidget from "./components/SupportMeWidget.tsx";
+
 export const title = "Gilberto Moreno";
 
 const Home: React.FC = () => {
@@ -18,29 +21,24 @@ const Home: React.FC = () => {
             </head>
             <body>
                 <div className="site">
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="/">Home</a>
-                            </li>
-                        </ul>
-                    </nav>
+                    <NavigationBar />
+
                     <main className="site-content">
                         <div className="header-container">
+                            <div className="profile-container">
+                                <img
+                                    // src="./static/images/GM-Bunny_Animated_600.gif"
+                                    src="./static/images/qxc_Squared.jpeg"
+                                    alt="My Avatar"
+                                    className="avatar profile-image"
+                                />
+                            </div>
                             <div className="text-container">
                                 <h1>Greetings! 😀</h1>
                                 <h2>I'm Gilberto Moreno</h2>
                                 <h3>
                                     Software engineer & Game Developer.
                                 </h3>
-                            </div>
-                            <div className="profile-container">
-                                <img
-                                    src="./static/images/GM-Bunny_Animated_600.gif"
-                                    // src="./static/images/QxcOZ89Q.jpeg"
-                                    alt="My Avatar"
-                                    className="avatar profile-image"
-                                />
                             </div>
                         </div>
 
