@@ -1,6 +1,7 @@
 import React from "react";
 export const layout = "layouts/default.tsx";
 export const url = "/portfolio/";
+
 const Portfolio = () => {
     return (
         <>
