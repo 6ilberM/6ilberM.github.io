@@ -39,7 +39,9 @@ body {
   min-height: 100vh;
   font-family: 'JetBrains Mono', monospace;
   background-color: $color-palette-1;
-  background-image: linear-gradient(to top, rgba(26, 23, 28, 0.02), rgba(26, 23, 28, 0.75)), $bg-Image-1 !important;
+  background-image: linear-gradient(to top,
+          rgba(26, 23, 28, 0.55),
+          rgba(26, 23, 28, 0.75)), $bg-Image-1 !important;
   line-height: 1.6;
   color: $text-color-2;
 }
@@ -174,21 +176,4 @@ img {
   max-width: 100%;
   height: auto;
   margin: 1rem 0;
-}
-
-// Responsive
-@media (max-width: 768px) {
-  .profile-section {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .text-container {
-    margin-left: 0;
-    margin-top: 1rem;
-  }
-
-  .profile-container {
-    width: 100%;
-  }
 }
