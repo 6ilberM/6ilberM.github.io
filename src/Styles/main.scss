@@ -10,6 +10,10 @@ $text-color-2: wheat;
 $content-color-link: #2ea831;
 $content-color-link-hover: #235025;
 
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1024px;
+
 @font-face {
   font-family: 'JetBrains Mono';
   src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
@@ -23,11 +27,6 @@ $content-color-link-hover: #235025;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-html {
-  min-width: 1200px; // Force minimum width
-  overflow-x: auto; // Allow horizontal scroll if needed
 }
 
 body {
@@ -194,5 +193,73 @@ img {
 
   nav ul {
     justify-content: center; // Center nav items on smaller screens
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .profile-container {
+    width: 150px;
+    height: 150px;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  .curriculum-vitae-button {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  // Navigation adjustments
+  nav ul {
+    justify-content: center;
+    padding: 0 1rem;
+    gap: 1rem;
+  }
+
+  // Profile section adjustments
+  .profile-section {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .profile-container {
+    width: 200px;
+    height: 200px;
+  }
+
+  .text-container {
+    margin-left: 0;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  // Typography adjustments for mobile
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  // Content padding adjustment
+  .site-content {
+    padding: 1rem;
   }
 }
