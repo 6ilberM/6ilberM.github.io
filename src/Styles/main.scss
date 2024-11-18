@@ -19,21 +19,21 @@ $content-color-link-hover: #235025;
   font-display: swap;
 }
 
-// Reset
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+html {
+  min-width: 1200px; // Force minimum width
+  overflow-x: auto; // Allow horizontal scroll if needed
+}
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-// Base styles
-body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -106,6 +106,7 @@ nav a {
   justify-content: space-between;
   width: 100%;
   padding: 2rem 0;
+  flex-wrap: wrap; // Allow wrapping on smaller screens
 }
 
 .profile-container {
@@ -123,6 +124,7 @@ nav a {
 .text-container {
   flex: 1;
   margin-left: 2rem;
+  min-width: 300px; // Ensure it doesn't shrink too much
 }
 
 // Typography
@@ -176,4 +178,21 @@ img {
   max-width: 100%;
   height: auto;
   margin: 1rem 0;
+}
+
+// Basic Media Query for Smaller Screens
+@media (max-width: 768px) {
+  .profile-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .text-container {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  nav ul {
+    justify-content: center; // Center nav items on smaller screens
+  }
 }
