@@ -16,7 +16,12 @@ const Footer: React.FC = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                Website Source
+                                <img
+                                    src="../static/images/github-logo-duotone-svgrepo-com.svg"
+                                    alt="Mastodon Logo"
+                                    className="github-logo"
+                                />
+                                SourceCode
                             </a>
                         </li>
                         <li>
