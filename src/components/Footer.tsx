@@ -5,23 +5,16 @@ const Footer: React.FC = () => {
         <footer className="footer">
             <div className="footer-content">
                 <p>© 2024 Gilberto Moreno. All rights reserved.</p>
-
+                <a
+                    href="https://github.com/6ilberM/6ilberM.github.io"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    SourceCode
+                </a>
                 <div>
                     <p>Contact Me On!</p>
-
                     <ul className="social-links">
-                        <li>
-                            <a
-                                href="https://github.com/6ilberM/6ilberM.github.io"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >                                <img
-                                    src="../static/images/github-logo-duotone-svgrepo-com.svg"
-                                    alt="Github Logo"
-                                    className="social-logo"
-                                /> SourceCode
-                            </a>
-                        </li>
                         <li>
                             <a
                                 href="https://mastodon.gamedev.place/@6ilberm"
@@ -33,7 +26,8 @@ const Footer: React.FC = () => {
                                     src="../static/images/logo-white.svg"
                                     alt="Mastodon Logo"
                                     className="social-logo"
-                                /> Mastodon
+                                />{" "}
+                                Mastodon
                             </a>
                         </li>
                         <li>
@@ -45,6 +39,19 @@ const Footer: React.FC = () => {
                                 <img
                                     src="../static/images/icons8-twitterx.svg"
                                     alt="X Logo"
+                                    className="social-logo"
+                                />
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/6ilberM"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <img
+                                    src="../static/images/github-logo-duotone-svgrepo-com.svg"
+                                    alt="GitHub Logo"
                                     className="social-logo"
                                 />
                             </a>
