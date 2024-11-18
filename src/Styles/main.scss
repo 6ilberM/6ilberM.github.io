@@ -179,23 +179,6 @@ img {
   margin: 1rem 0;
 }
 
-// Basic Media Query for Smaller Screens
-@media (max-width: 768px) {
-  .profile-section {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .text-container {
-    margin-left: 0;
-    margin-top: 1rem;
-  }
-
-  nav ul {
-    justify-content: center; // Center nav items on smaller screens
-  }
-}
-
 @media screen and (max-width: $mobile) {
   nav ul {
     flex-direction: column;
@@ -219,15 +202,14 @@ img {
   }
 }
 
+// Tablet-specific adjustments
 @media screen and (max-width: $tablet) {
-  // Navigation adjustments
   nav ul {
     justify-content: center;
     padding: 0 1rem;
     gap: 1rem;
   }
 
-  // Profile section adjustments
   .profile-section {
     flex-direction: column;
     align-items: center;
@@ -245,7 +227,6 @@ img {
     text-align: center;
   }
 
-  // Typography adjustments for mobile
   h1 {
     font-size: 2rem;
   }
@@ -258,7 +239,6 @@ img {
     font-size: 1.25rem;
   }
 
-  // Content padding adjustment
   .site-content {
     padding: 1rem;
   }
