@@ -1,18 +1,18 @@
 const NavigationBar = () => {
     return (
         <nav>
-            <ul>
+            <ul className="nav-list">
                 <li>
-                    <a href="/">Home</a>
+                    <a href="/" className="nav-link">Home</a>
                 </li>
                 <li>
-                    <a href="/about/">About</a> {/* Note the trailing slash */}
+                    <a href="/about/" className="nav-link">About</a>
                 </li>
                 <li>
-                    <a href="/portfolio/">Portfolio</a>
+                    <a href="/portfolio/" className="nav-link">Portfolio</a>
                 </li>
                 <li>
-                    <a href="/contact/">Contact</a>
+                    <a href="/contact/" className="nav-link">Contact</a>
                 </li>
             </ul>
         </nav>
