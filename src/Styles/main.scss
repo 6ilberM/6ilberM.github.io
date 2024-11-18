@@ -32,15 +32,16 @@ $desktop: 1024px;
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   font-family: 'JetBrains Mono', monospace;
   background-color: $color-palette-1;
-  background-image: linear-gradient(to top,
-          rgba(26, 23, 28, 0.55),
-          rgba(26, 23, 28, 0.75)), $bg-Image-1 !important;
+  background-image: linear-gradient(
+                  to top,
+                  rgba(26, 23, 28, 0.55),
+                  rgba(26, 23, 28, 0.75)
+  ), $bg-Image-1 !important;
   line-height: 1.6;
   color: $text-color-2;
 }
@@ -52,7 +53,7 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding-top: 60px; // Adjust this value based on your nav height
+  padding-top: 80px; // Adjust to match nav bar height
 }
 
 .site-content {
@@ -64,7 +65,7 @@ body {
 }
 
 nav {
-  position: absolute;
+  position: fixed; // Changed to fixed
   top: 0;
   left: 0;
   width: 100%;
@@ -118,6 +119,7 @@ nav a {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 7vh;
 }
 
 .text-container {
@@ -154,11 +156,11 @@ p {
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
   transition: background-color 0.3s ease;
-}
 
-.curriculum-vitae-button:hover {
-  background-color: $content-color-link-hover;
-  color: #fff;
+  &:hover {
+    background-color: $content-color-link-hover;
+    color: #fff;
+  }
 }
 
 // Links
@@ -166,10 +168,10 @@ a {
   text-decoration: none;
   color: $content-color-link;
   transition: color 0.3s ease;
-}
 
-a:hover {
-  color: $content-color-link-hover;
+  &:hover {
+    color: $content-color-link-hover;
+  }
 }
 
 // Images
@@ -177,29 +179,6 @@ img {
   max-width: 100%;
   height: auto;
   margin: 1rem 0;
-}
-
-@media screen and (max-width: $mobile) {
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
-  }
-
-  .profile-container {
-    width: 150px;
-    height: 150px;
-  }
-
-  h1 {
-    font-size: 1.75rem;
-  }
-
-  .curriculum-vitae-button {
-    width: 100%;
-    text-align: center;
-    margin-top: 1rem;
-  }
 }
 
 // Tablet-specific adjustments
@@ -241,5 +220,55 @@ img {
 
   .site-content {
     padding: 1rem;
+  }
+}
+
+// Mobile-specific adjustments
+@media screen and (max-width: $mobile) {
+  // Adjust padding-top if nav bar height changes on mobile
+  .site {
+    padding-top: 120px;
+  }
+
+  nav {
+    padding: 0.5rem 0;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .profile-container {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+  }
+
+  .profile-image {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+  }
+
+  .text-container {
+    margin-left: 0;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  .curriculum-vitae-button {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
   }
 }
