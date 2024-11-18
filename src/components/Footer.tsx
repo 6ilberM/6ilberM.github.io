@@ -18,8 +18,8 @@ const Footer: React.FC = () => {
                             >
                                 <img
                                     src="../static/images/github-logo-duotone-svgrepo-com.svg"
-                                    alt="Mastodon Logo"
-                                    className="github-logo"
+                                    alt="Github Logo"
+                                    className="social-logo"
                                 />
                                 SourceCode
                             </a>
@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
                                 <img
                                     src="../static/images/logo-white.svg"
                                     alt="Mastodon Logo"
-                                    className="mastodon-logo"
+                                    className="social-logo"
                                 />
                                 Mastodon
                             </a>
@@ -45,6 +45,11 @@ const Footer: React.FC = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
+                                <img
+                                    src="../static/images/icons8-twitterx.svg"
+                                    alt="X Logo"
+                                    className="social-logo"
+                                />
                                 X
                             </a>
                         </li>
