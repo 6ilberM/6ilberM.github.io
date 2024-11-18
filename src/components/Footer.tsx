@@ -15,28 +15,25 @@ const Footer: React.FC = () => {
                                 href="https://github.com/6ilberM/6ilberM.github.io"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                            >
-                                <img
+                            >                                <img
                                     src="../static/images/github-logo-duotone-svgrepo-com.svg"
                                     alt="Github Logo"
                                     className="social-logo"
-                                />
-                                SourceCode
+                                /> SourceCode
                             </a>
                         </li>
                         <li>
                             <a
                                 href="https://mastodon.gamedev.place/@6ilberm"
                                 target="_blank"
-                                rel="noopener noreferrer"
+                                rel="me"
                                 className="mastodon-button"
                             >
                                 <img
                                     src="../static/images/logo-white.svg"
                                     alt="Mastodon Logo"
                                     className="social-logo"
-                                />
-                                Mastodon
+                                /> Mastodon
                             </a>
                         </li>
                         <li>
@@ -50,7 +47,6 @@ const Footer: React.FC = () => {
                                     alt="X Logo"
                                     className="social-logo"
                                 />
-                                X
                             </a>
                         </li>
                     </ul>
