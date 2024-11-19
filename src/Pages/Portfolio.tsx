@@ -40,9 +40,18 @@ const Portfolio = () => {
                         />
                     </div>
                 </section>
-                
-            {/*  Programs I manage and work with stuff I have done random tools I have made outside of professional work what should I add to really boost my chances to get hired I don't have many other projects that are commercially as succesful as this one   */}
-                
+
+                {/*  Programs or skills I manage and work with stuff I have done random tools I have made outside of professional work what should I add to really boost my chances to get hired I don't have many other projects that are commercially as succesful as this one    */}
+
+                <section className="other-projects">
+                    <h3>Miscellaneous</h3>
+                    <ul>
+                        <li>
+                            Cool stuff I made in Pico-8 as an experiment <a href="https://ibb.co/34MPXzv"><img
+                            src="https://i.ibb.co/KbL8ZwD/midpointer-0.gif" alt="midpointer-0" border="0"/></a>
+                        </li>
+                    </ul>
+                </section>
             </div>
         </>
     );
