@@ -43,6 +43,23 @@ const Portfolio = () => {
                         </div>
                     </section>
                 </div>
+                <div className={"professional-projects"}>
+                    <section className={"led-projects-or-assisted"}>
+                        <p>
+                            I was responsible for developing sometimes a led
+                            project at FiveBits and assisted in others.
+                        </p>
+                        //Simple carousel that just shows a few screenshots with a name or showing I developed these and these other ones I assisted in 
+                        <div className={"led-projects"}>
+                            <li></li>
+                        </div>
+
+                        <img
+                            src={"https://play-lh.googleusercontent.com/9MwmPHwqdRr8nn9E4i3EGE9RrHoVp-gx9C1P97wDLbzttQuFy4HIcO95GcKA_OUdpPG5=w5120-h2880-rw"}
+                            alt={"planet Digger screenshot"}
+                        />
+                    </section>
+                </div>
 
                 <section className="skills">
                     <h3>Key Skills</h3>
