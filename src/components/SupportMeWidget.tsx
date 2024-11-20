@@ -1,10 +1,10 @@
 import React from "react";
 
 const SupportMeWidget: React.FC = () => {
-    return (
-        <script
-            dangerouslySetInnerHTML={{
-                __html: `
+  return (
+    <script
+      dangerouslySetInnerHTML={{
+        __html: `
         (function() {
           var script = document.createElement('script');
           script.src = 'https://storage.ko-fi.com/cdn/scripts/overlay-widget.js';
@@ -22,9 +22,9 @@ const SupportMeWidget: React.FC = () => {
           document.body.appendChild(script);
         })();
       `,
-            }}
-        />
-    );
+      }}
+    />
+  );
 };
 
 export default SupportMeWidget;

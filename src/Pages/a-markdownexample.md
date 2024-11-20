@@ -1,7 +1,7 @@
 ---
 title: "Welcome to another blog post of hilarity!"
 date: "2020-06-12"
-category: 
+category:
 - Devlog
 tags:
 - personal
@@ -10,7 +10,6 @@ tags:
 - prototyping
 image: "https://source.unsplash.com/150x150/?sleep"
 keywords: developer
-
 ---
 
 ## This is another Md thing its fairly Simple and all
@@ -26,11 +25,11 @@ public class A_ThingDoing: MonoBehaviour {
         Debug.log("This is the first thing I ever do using the Code Block");
     }
 }
-
 ```
 
 quite something eh ?
 
 Note: Remember you were setting up the Remark plugin
 
-[Status Update](/StatusUpdate_1) this link will be the easiest way to link to another spot...
+[Status Update](/StatusUpdate_1) this link will be the easiest way to link to
+another spot...
