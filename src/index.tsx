@@ -17,7 +17,10 @@ const Home: React.FC = () => {
                         />
                     </div>
                     <div className="text-container">
-                        <h1>Hi, I’m Gilberto Moreno</h1>
+                        <h1>
+                            <span className="greeting">Hi, I'm</span>{" "}
+                            Gilberto Moreno
+                        </h1>
                         <h2>Software Engineer & Gameplay Programmer</h2>
                         <p>
                             I like making things & games.
@@ -28,7 +31,7 @@ const Home: React.FC = () => {
                         </p>
                     </div>
                 </div>
-                
+
                 <a
                     className="curriculum-vitae-button"
                     href="https://drive.google.com/file/d/1--t4DQJFXh9ti8ZPsKtAqUAe_GFvhEo6/view?usp=sharing"
