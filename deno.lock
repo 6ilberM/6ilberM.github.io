@@ -32,7 +32,9 @@
     "npm:@js-temporal/polyfill@0.4.4": "0.4.4",
     "npm:@mdx-js/mdx@3.1.0": "3.1.0",
     "npm:@types/estree@1.0.6": "1.0.6",
+    "npm:@types/react-dom@18.3.1": "18.3.1",
     "npm:@types/react@*": "18.3.12",
+    "npm:@types/react@18.3.12": "18.3.12",
     "npm:autoprefixer@10.4.20": "10.4.20_postcss@8.4.47",
     "npm:estree-walker@3.0.3": "3.0.3",
     "npm:highlight.js@11.10.0": "11.10.0",
@@ -282,6 +284,12 @@
     },
     "@types/prop-types@15.7.13": {
       "integrity": "sha512-hCZTSvwbzWGvhqxp/RqVqwU999pBf2vp7hzIjiYOsl8wqOmUxkQ6ddw1cV3l8811+kdUFus/q4d1Y3E3SyEifA=="
+    },
+    "@types/react-dom@18.3.1": {
+      "integrity": "sha512-qW1Mfv8taImTthu4KoXgDfLuk4bydU6Q/TkADnDWWHwi4NX4BR+LWfTp2sVmTqRrsHvyDDTelgelxJ+SsejKKQ==",
+      "dependencies": [
+        "@types/react"
+      ]
     },
     "@types/react@18.3.12": {
       "integrity": "sha512-D2wOSq/d6Agt28q7rSI3jhU7G6aiuzljDGZ2hTZHIkrTLUI+AF3WMeKkEZ9nN2fkBAlcktT6vcZjDFiIhMYEQw==",
