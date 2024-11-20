@@ -8,11 +8,11 @@ import codeHighlight from "lume/plugins/code_highlight.ts";
 import postcss from "lume/plugins/postcss.ts";
 
 const siteBuild = lume(
-    {
-        src: "./src",
-        location: new URL("https://www.6ilberm.io"),
-        includes: "_includes", // This ensures layouts are found
-    },
+  {
+    src: "./src",
+    location: new URL("https://www.6ilberm.io"),
+    includes: "_includes", // This ensures layouts are found
+  },
 );
 
 siteBuild.use(jsx());
