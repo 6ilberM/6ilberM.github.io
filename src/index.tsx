@@ -18,22 +18,17 @@ const Home: React.FC = () => {
                     </div>
                     <div className="text-container">
                         <h1>Hi, I’m Gilberto Moreno</h1>
-                        <h2>Software Engineer & Game Developer</h2>
+                        <h2>Software Engineer & Gameplay Programmer</h2>
                         <p>
-                            I like making things & games. I believe dreams shape
-                            the world, so I dream to make games people will
-                            love.
+                            I like making things & games.
+                        </p>
+                        <p>
+                            I believe dreams shape the world, so I dream to make
+                            games people will love.
                         </p>
                     </div>
                 </div>
-
-                <p>
-                    I like making things & games.
-                </p>
-                <p>
-                    I believe dreams shape the world, so I dream to make games
-                    people will love.
-                </p>
+                
                 <a
                     className="curriculum-vitae-button"
                     href="https://drive.google.com/file/d/1--t4DQJFXh9ti8ZPsKtAqUAe_GFvhEo6/view?usp=sharing"
