@@ -1,12 +1,66 @@
 import React from "react";
+import ProjectGallery from "../components/ProjectGallery.tsx";
 export const layout = "layouts/default.tsx";
 export const url = "/portfolio/";
 
 const Portfolio = () => {
+    const successfulProjectImages = [
+        {
+            src: "https://play-lh.googleusercontent.com/KFXHhPzvbJn0gi9n6txO4sXerKfYjYnpM0FUuM5zLyWOWOuWX6QSlFGL6U-MKNph7ho3=w2560-h1440-rw",
+            alt: "Game screenshot",
+        },
+        {
+            src: "https://play-lh.googleusercontent.com/KUSW6PkA02A7yFZm1x1sSFeL3uGTFNVxXlDo6jzfCWKblLEVLHTle0OUDVrX5lhO6zU=w2560-h1440-rw",
+            alt: "Start screen",
+        },
+    ];
+    const projects = [
+        { name: "Seat as", image: "https://i.ibb.co/yPxzx0N/seatas.webp" },
+        { name: "Seats", image: "https://i.ibb.co/n6SyDLC/seats.webp" },
+        {
+            name: "Donuts Merge",
+            image: "https://i.ibb.co/6gdgxrS/donuts-Merge.webp",
+        },
+        {
+            name: "Bottle Challenge",
+            image: "https://i.ibb.co/g7q4bZG/bottle-Challenge.webp",
+        },
+        {
+            name: "Dodgeball 2",
+            image: "https://i.ibb.co/1dx7cLv/dodgeball-2.webp",
+        },
+        { name: "Unicorn", image: "https://i.ibb.co/88pzxyb/unicorn.webp" },
+        {
+            name: "Unicorn DIY",
+            image: "https://i.ibb.co/F0HHdck/unicorn-DIY.webp",
+        },
+        {
+            name: "Merge Legs",
+            image: "https://i.ibb.co/HK65WD4/merge-legs.webp",
+        },
+        {
+            name: "Merge Legs 2",
+            image: "https://i.ibb.co/QFpLPd6/merge-legs-2.webp",
+        },
+        { name: "Dodgeball", image: "https://i.ibb.co/GQK1pH4/dodgeball.webp" },
+        {
+            name: "Planet Digger",
+            image:
+                "https://play-lh.googleusercontent.com/9MwmPHwqdRr8nn9E4i3EGE9RrHoVp-gx9C1P97wDLbzttQuFy4HIcO95GcKA_OUdpPG5=w5120-h2880-rw",
+        },
+    ];
+
     return (
         <>
             <div className="portfolio">
                 <h1>Portfolio</h1>
+                <div className={"portfolio-intro"}>
+                    Portfolio //what can I offer as a professional Programmer
+
+                    Do you want to develop a game?
+
+                    //Why should you hire me? that i can offer you
+                </div>
 
                 <div className={"professional-successful-projs"}>
                     <section className="project-overview">
@@ -31,15 +85,38 @@ const Portfolio = () => {
 
                     <section className="screenshots">
                         <h3>Screenshots</h3>
-                        <div className="screenshot-container">
-                            <img
-                                src={"https://play-lh.googleusercontent.com/KFXHhPzvbJn0gi9n6txO4sXerKfYjYnpM0FUuM5zLyWOWOuWX6QSlFGL6U-MKNph7ho3=w2560-h1440-rw"}
-                                alt={"game screenshot"}
+                        <div>
+                            <ProjectGallery
+                                images={successfulProjectImages}
+                                title="Screenshots"
+                                showNames={false}
                             />
-                            <img
-                                src={"https://play-lh.googleusercontent.com/KUSW6PkA02A7yFZm1x1sSFeL3uGTFNVxXlDo6jzfCWKblLEVLHTle0OUDVrX5lhO6zU=w2560-h1440-rw"}
-                                alt={"start Screen"}
-                            />
+                        </div>
+                    </section>
+                </div>
+                <div className={"professional-projects"}>
+                    <section className={"led-projects-or-assisted"}>
+                        <p>
+                            I was responsible for developing sometimes a led
+                            project at FiveBits and assisted in others.
+                        </p>
+                        //Simple carousel that just shows a few screenshots with
+                        a name or showing I developed these and these other ones
+                        I assisted in
+
+                        <div className={"led-projects"}>
+                        </div>
+
+                        <div className="project-grid">
+                            {projects.map((project, index) => (
+                                <div key={index} className="project-item">
+                                    <img
+                                        src={project.image}
+                                        alt={project.name}
+                                    />
+                                    <p>{project.name}</p>
+                                </div>
+                            ))}
                         </div>
                     </section>
                 </div>
