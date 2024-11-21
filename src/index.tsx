@@ -34,7 +34,7 @@ const Home: React.FC = () => {
 
                 <a
                     className="curriculum-vitae-button"
-                    href="https://drive.google.com/file/d/1--t4DQJFXh9ti8ZPsKtAqUAe_GFvhEo6/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1-2MbmS8zoA6cRPZOukpPi7SlgJgG4L4K/view?usp=sharing"
                 >
                     Curriculum - Resume
                 </a>
