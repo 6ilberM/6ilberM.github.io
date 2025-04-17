@@ -1869,5 +1869,10 @@
     "https://esm.sh/react@17.0.2/jsx-runtime": "95dfa0b70e721a68a69b07dbd0f1ba776ed41254e2f1aa14d324c0d551105bd2",
     "https://esm.sh/stable/react@17.0.2/denonext/jsx-runtime.js": "ba64d79393e0c174107f767e030d69b40f74ffe3aea0e88173f318aabcef2d32",
     "https://esm.sh/stable/react@17.0.2/denonext/react.mjs": "b56e433c6fc3a789a9e66d9e0cc0248ed385b955aeacfca2679298180da70aa2"
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:@types/react@*"
+    ]
   }
 }
