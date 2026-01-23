@@ -8,6 +8,7 @@ $color-palette-2: #2b003f;
 
 $text-color-1: rgba(139, 127, 145);
 $text-color-2: wheat;
+$text-color-3: #f5bdb3;
 
 $content-color-link: #2ea831;
 $content-color-link-hover: #235025;
@@ -148,6 +149,14 @@ h1 {
   font-size: 2.5rem;
 }
 
+main {
+  padding: 1rem;
+}
+
+h1 > span.header-name-color {
+  color: $text-color-3
+}
+
 h2 {
   font-size: 2rem;
 }
@@ -229,9 +238,6 @@ img {
     font-size: 1.25rem;
   }
 
-  .site-content {
-    padding: 1rem;
-  }
 }
 
 // Mobile-specific adjustments

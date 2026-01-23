@@ -44,7 +44,7 @@ const Contact = () => {
           <button type="submit">Send Message</button>
         </form>
       </div>
-      <div className={"follow-me"}>
+      <div className="follow-me">
         <h2>Follow Me</h2>
         <ul>
           <li>
@@ -61,6 +61,11 @@ const Contact = () => {
               target="_blank"
             >
               LinkedIn
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitch.tv/6ilberm" target="_blank">
+              Twitch!
             </a>
           </li>
         </ul>
