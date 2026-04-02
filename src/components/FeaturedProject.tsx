@@ -1,12 +1,13 @@
 import ProjectGallery from "./ProjectGallery.tsx";
+
 interface FeaturedProjectProps {
   images: { src: string; alt: string }[];
 }
 
-const FeaturedProject: React.FC<FeaturedProjectProps> = ({ images }) => (
-  <div className="featured-project">
+export default ({ images }: FeaturedProjectProps) => (
+  <div class="featured-project">
     <h2 id="featured-project">Featured Project</h2>
-    <section className="project-overview">
+    <section class="project-overview">
       <h3>911 Emergency Dispatcher</h3>
       <p>A Mobile Hyper Casual Game</p>
       <p>
@@ -14,7 +15,7 @@ const FeaturedProject: React.FC<FeaturedProjectProps> = ({ images }) => (
       </p>
     </section>
 
-    <section className="key-features">
+    <section class="key-features">
       <h3>Features I Developed</h3>
       <ul>
         <li>Humorous 911 call scenarios</li>
@@ -25,14 +26,11 @@ const FeaturedProject: React.FC<FeaturedProjectProps> = ({ images }) => (
       </ul>
     </section>
 
-    <section className="screenshots">
+    <section class="screenshots">
       <ProjectGallery
         images={images}
         title="Screenshots"
-        showNames={false}
       />
     </section>
   </div>
 );
-
-export default FeaturedProject;

@@ -1,5 +1,3 @@
-import React from "react";
-
 interface ProjectImage {
   src: string;
   alt: string;
@@ -11,9 +9,7 @@ interface ProjectGalleryProps {
   title?: string;
 }
 
-const ProjectGallery: React.FC<ProjectGalleryProps> = (
-  { images = [], title }: ProjectGalleryProps,
-) => {
+export default ({ images = [], title }: ProjectGalleryProps) => {
   return (
     <>
       {title && <h3>{title}</h3>}
@@ -28,5 +24,3 @@ const ProjectGallery: React.FC<ProjectGalleryProps> = (
     </>
   );
 };
-
-export default ProjectGallery;

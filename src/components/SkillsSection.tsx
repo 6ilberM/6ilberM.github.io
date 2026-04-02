@@ -1,6 +1,5 @@
-import React from "react";
-
-const SkillsSection: React.FC = () => {
+// src/components/SkillsSection.tsx
+export default () => {
   const skills = [
     "Unity3D Game Development",
     "C# Programming",
@@ -10,15 +9,10 @@ const SkillsSection: React.FC = () => {
     "Performance Optimization",
     "Cross-platform Development",
   ];
-
   return (
-    <section className="skills">
+    <section class="skills">
       <h3>Key Skills</h3>
-      <ul>
-        {skills.map((skill, index) => <li key={index}>{skill}</li>)}
-      </ul>
+      <ul>{skills.map((skill) => <li>{skill}</li>)}</ul>
     </section>
   );
 };
-
-export default SkillsSection;

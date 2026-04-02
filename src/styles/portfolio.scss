@@ -10,6 +10,8 @@ $content-color-link-hover: #235025;
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
+  background: rgba(0, 0, 0, 0.67);
+  border-radius: 30px;
 
   html {
     scroll-behavior: smooth;

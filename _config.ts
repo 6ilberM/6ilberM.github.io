@@ -8,11 +8,11 @@ import codeHighlight from "lume/plugins/code_highlight.ts";
 import postcss from "lume/plugins/postcss.ts";
 
 const siteBuild = lume(
-    {
-        src: "./src",
-        location: new URL("https://www.6ilberm.io"),
-        includes: "_includes", // This ensures layouts are found
-    },
+  {
+    src: "./src",
+    location: new URL("https://www.6ilberm.io"),
+    includes: "_includes",
+  },
 );
 
 siteBuild.use(jsx());
@@ -23,7 +23,7 @@ siteBuild.use(codeHighlight());
 siteBuild.use(sass());
 siteBuild.use(postcss());
 
-siteBuild.copy("styles", "Styles");
-siteBuild.copy("static", "static");
+siteBuild.add([".scss", ".css"]);
+siteBuild.add("static", "static");
 
 export default siteBuild;

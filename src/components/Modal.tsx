@@ -1,32 +1,13 @@
-// components/Modal.tsx
-import React from "react";
-
-interface ModalProps {
-  isOpen: boolean;
-  onClose: () => void;
-  children: React.ReactNode;
-}
-
-const Modal: React.FC<ModalProps> = ({
-  isOpen,
-  onClose,
-  children,
-}: ModalProps) => {
-  if (!isOpen) return null;
-
-  return (
-    <div className="modal-overlay" onClick={onClose}>
-      <div
-        className="modal-content"
-        onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside
+export default ({ id, children }: { id: string; children: any }) => (
+  <div id={id} class="modal-overlay" style="display: none;">
+    <div class="modal-content">
+      {children}
+      <button
+        class="modal-close-button"
+        onclick={`document.getElementById('${id}').style.display='none'`}
       >
-        {children}
-        <button onClick={onClose} className="modal-close-button">
-          Close
-        </button>
-      </div>
+        Close
+      </button>
     </div>
-  );
-};
-
-export default Modal;
+  </div>
+);

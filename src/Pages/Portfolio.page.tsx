@@ -1,4 +1,3 @@
-import React from "react";
 import PortfolioIntro from "../components/PortfolioIntro.tsx";
 import FeaturedProject from "../components/FeaturedProject.tsx";
 import ProjectGrid from "../components/ProjectGrid.tsx";

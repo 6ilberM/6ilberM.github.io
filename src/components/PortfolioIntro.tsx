@@ -1,6 +1,4 @@
-import React from "react";
-
-const PortfolioIntro: React.FC = () => (
+export default () => (
   <div className="portfolio-intro">
     <span>Gameplay Programmer &amp; Game Designer</span>
     <div className="quickDescription">
@@ -19,5 +17,3 @@ const PortfolioIntro: React.FC = () => (
     </div>
   </div>
 );
-
-export default PortfolioIntro;
