@@ -5,7 +5,7 @@ export default () => (
       <a
         href="https://github.com/6ilberM/6ilberM.github.io"
         target="_blank"
-        rel="noopener"
+        rel="noopener noreferrer"
       >
         Source Code
       </a>
@@ -23,7 +23,32 @@ export default () => (
             />
           </a>
         </li>
-        {/* Add other links similarly */}
+        <li>
+          <a
+            href="https://x.com/6ilberm"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="../static/images/icons8-twitterx.svg"
+              alt="X Logo"
+              className="social-logo"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/6ilberM"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="../static/images/github-logo-duotone-svgrepo-com.svg"
+              alt="GitHub Logo"
+              className="social-logo"
+            />
+          </a>
+        </li>
       </ul>
     </div>
   </footer>
