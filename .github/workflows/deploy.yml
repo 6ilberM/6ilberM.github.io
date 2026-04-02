@@ -2,7 +2,7 @@ name: Publish on GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [ main ]
 
 permissions:
   contents: read
@@ -19,20 +19,20 @@ jobs:
 
       - name: Setup Deno environment
         uses: denoland/setup-deno@v2
-#        with:
-#          deno-version: v1.x
+      #        with:
+      #          deno-version: v1.x
 
       - name: Build site
         run: deno task build
 
       - name: Setup Pages
-        uses: actions/configure-pages@v3
+        uses: actions/configure-pages@v5
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: "_site"
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
